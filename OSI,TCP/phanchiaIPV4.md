@@ -26,5 +26,7 @@
   - Địa chỉ Ipv4 là 1 địa chỉ đơn nhất đang được sử dụng bởi các thiết bị điện tử hiện nay để nhận diện và liên lạc với nhau trên Internet. Để đánh địa chỉ, Ipv4 sử dụng   32bit và chia ra làm 4 octet (mỗi octet có 8 bit = 1 byte). Dấu chấm được sử dụng để ngăn các octet với nhau.
  - Cấu trúc của địa chỉ IPv4 Về cấu tạo, địa chỉ IPv4 sẽ có 32 bit và được biểu diễn thành một dãy số nhị phân và chia thành 4 cụm. Mỗi cụm như vậy sẽ gọi là octet. Mỗi   octet sẽ là 8 bit và chúng được ngăn cách bằng dấu chấm (.)
  - Về hình dáng, cấu trúc của một địa chỉ IPv4 sẽ gồm 4 con số ở dạng thập phân tượng trưng cho 4 cụm. Địa chỉ này gồm 2 phần là phần mạng và phần host.
+ 
+ 
  ![image](https://user-images.githubusercontent.com/105496635/181904857-1f2e8482-e304-4b73-9cc8-5480cfacec91.png)
 
