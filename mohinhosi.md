@@ -1,3 +1,6 @@
+GIỚI THIỆU VỀ MÔ HÌNH OSI
+
+
 I,Mô hình OSI
 -Mô hình OSI (Open Systems Interconnection Reference Model, viết ngắn là OSI Model hoặc OSI Reference 
 Model) – tạm dịch là mô hình tham chiếu kết nối các hệ thống mở hay còn được gọi là mô hình bảy tầng của 
