@@ -1,4 +1,6 @@
-GIỚI THIỆU VỀ MÔ HÌNH OSI
+#GIỚI THIỆU VỀ MÔ HÌNH OSI
+
+#Mục lục
 
 
 I,Mô hình OSI
