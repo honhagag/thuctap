@@ -26,10 +26,56 @@ Hiện nay, VLAN đóng một vai trò rất quan trọng trong công nghệ m�
 - Dễ dàng thêm hay bớt máy tính vào VLAN: Việc thêm một máy tính vào VLAN rất đơn giản, chỉ cần cấu hình cổng cho máy đó vào VLAN mong muốn.
 - Giúp mạng có tính linh động cao: VLAN có thể dễ dàng di chuyển các thiết bị. Giả sử trong ví dụ trên, sau một thời gian sử dụng công ty quyết định để mỗi bộ phận ở một tầng riêng biệt. Với VLAN, ta chỉ cần cấu hình lại các cổng switch rồi đặt chúng vào các VLAN theo yêu cầu. VLAN có thể được cấu hình tĩnh hay động. Trong cấu hình tĩnh, người quản trị mạng phải cấu hình cho từng cổng của mỗi switch. Sau đó, gán cho nó vào một VLAN nào đó. Trong cấu hình động mỗi cổng của switch có thể tự cấu hình VLAN cho mình dựa vào địa chỉ MAC của thiết bị được kết nối vào.
 
-#  Khi nào bạn cần một VLAN?
+# 6. Khi nào bạn cần một VLAN?
 Bạn cần cân nhắc việc sử dụng VLAN trong các trường hợp sau:
 - Bạn có hơn 200 máy tính trong mạng LAN
 - Lưu lượng quảng bá (broadcast traffic) trong mạng LAN của bạn quá lớn
 - Các nhóm làm việc cần gia tăng bảo mật hoặc bị làm chậm vì quá nhiều bản tin quảng bá.
 - Các nhóm làm việc cần nằm trên cùng một miền quảng bá vì họ đang dùng chung các ứng dụng. Ví dụ như một công ty sử dụng điện thoại VoIP. Một số người muốn sử dụng điện thoại có thể thuộc một mạng VLAN khác, không cùng với người dùng thường xuyên.
 - Hoặc chỉ để chuyển đổi một switch đơn thành nhiều switch ảo.
+
+# 7. Tại sao không chia subnet?
+
+- Một câu hỏi thường gặp đó là tại sao không chia subnet (mạng con) thay vì sử dụng VLAN? Mỗi VLAN nên ở subnet của riêng mình. VLAN có ưu điểm hơn subnet ở chỗ các máy tính tại những vị trí vật lý khác nhau (không quay lại cùng một router) có thể nằm trong cùng một mạng. Hạn chế của việc chia subnet với một router đó là tất cả máy tính trên subnet đó phải được kết nối tới cùng một switch và switch đó phải được kết nối tới một cổng trên router.
+
+Với VLAN, một máy tính có thể được kết nối tới switch này trong khi máy tính khác có thể kết nối tới switch kia mà tất cả các máy tính vẫn nằm trên VLAN chung (miền quảng bá).
+
+# 8. Làm thế nào các máy tính trên VLAN khác nhau có thể giao tiếp với nhau?
+- Các máy tính trên VLAN khác nhau có thể giao tiếp với một router hoặc một switch Layer 3. Do mỗi VLAN là subnet của riêng nó, router hoặc switch Layer 3 phải được dùng để định tuyến giữa các subnet.
+
+# 9. Cổng trunk là gì?
+- Khi một liên kết giữa hai switch hoặc giữa một router và một switch truyền tải lưu lượng của nhiều VLAN thì cổng đó gọi là cổng trunk.
+
+- Cổng trunk phải chạy giao thức đường truyền đặc biệt. Giao thức được sử dụng có thể là giao thức độc quyền ISL của Cisco hoặc IEEE chuẩn 802.1q.
+
+# 10. Cài đặt VLAN
+- Tạo VLAN
+   - Bước 1. Đăng nhập vào tiện ích dựa trên web và chọn VLAN Management > VLAN Settings.
+
+    - Bước 2. Trong khu vực VLAN Table, bấm vào Add để tạo một VLAN mới. Một cửa sổ sẽ xuất hiện.
+
+    - Bước 3. VLAN có thể được thêm vào theo hai phương thức khác nhau như được hiển thị bởi các tùy chọn bên dưới. Chọn phương thức mong muốn:
+
+      - VLAN - Sử dụng phương pháp này để tạo một VLAN cụ thể.
+      - Range - Sử dụng phương pháp này để tạo một phạm vi cho VLAN.
+
+           ![image](https://user-images.githubusercontent.com/105496635/182060761-79810a62-10c9-4ce5-bcf4-d87d1242afa6.png)
+
+    - Bước 4. Nếu bạn đã chọn VLAN ở bước 3, hãy nhập VLAN ID vào trường VLAN ID. Phạm vi phải nằm trong khoảng từ 2 đến 4094. Trong ví dụ này, VLAN ID sẽ là 4.
+
+    - Bước 5. Trong trường VLAN Name, nhập tên cho VLAN. Trong ví dụ này, VLAN Name sẽ là Accounting. Tối đa 32 ký tự có thể được sử dụng.
+
+    - Bước 6. Chọn hộp kiểm VLAN Interface State để kích hoạt trạng thái interface VLAN. Nó đã được chọn theo mặc định. Nếu không, VLAN sẽ bị tắt và không có gì có thể được truyền hoặc nhận thông qua VLAN.
+
+    - Bước 7. Tích vào hộp kiểm Link Status SNMP Traps nếu bạn muốn kích hoạt việc tạo SNMP trap. Điều này được kích hoạt theo mặc định.
+     
+     ![image](https://user-images.githubusercontent.com/105496635/182060841-1000dce0-f430-4473-b319-8ff34ffde3fe.png)
+     
+    - Bước 8. Nếu bạn chọn Range trong bước 3, hãy nhập phạm vi cho các VLAN trong trường VLAN Range. Phạm vi có sẵn là 2 - 4094. Trong ví dụ này, VLAN Range là từ 3       đến 52
+     ![image](https://user-images.githubusercontent.com/105496635/182060912-848a2788-170e-49e7-8aa4-89e8fcc5d99f.png)      
+     
+     - Bước 9. Nhấn vào Apply
+
+
+
+
