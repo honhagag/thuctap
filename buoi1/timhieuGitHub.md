@@ -119,8 +119,7 @@ Bây giờ bạn vào trang git hub, bạn đăng nhập vào rồi vào mục a
 
 Bạn nhấn chọn vào SSH and GPG keys
 
-![image](https://user-images.githubusercontent.com/97047640/166664804-cbcadb92-e54b-43ea-b1b2-bd6828463ef7.png)
-
+![image](https://user-images.githubusercontent.com/105496635/182086294-49f0f688-42c3-4e4e-bd1e-a290a996c21e.png)
 Tại đây bạn có thể thấy hiện có bao nhiêu máy local được kết nối với server của bạn, bạn có thể thêm hoặc remove các tài khoản.
 
 Bạn chọn New SSH Key để add key của bạn vào.
