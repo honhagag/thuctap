@@ -114,7 +114,8 @@ b. Add SSH Key vào server git hub
 
 Bây giờ bạn vào trang git hub, bạn đăng nhập vào rồi vào mục account chọn setting
 
-![image](https://user-images.githubusercontent.com/97047640/166664734-e25b0d42-6e67-4bff-88f7-71fea0ef4d45.png)
+![image](https://user-images.githubusercontent.com/105496635/182085888-6a87fd50-4554-491b-91ce-c528a2917ad4.png)
+
 
 Bạn nhấn chọn vào SSH and GPG keys
 
