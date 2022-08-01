@@ -76,6 +76,38 @@ Với VLAN, một máy tính có thể được kết nối tới switch này tr
      
      - Bước 9. Nhấn vào Apply
 
+# 10. Xóa VLAN
+- Bước 1. Đăng nhập vào tiện ích dựa trên web và chọn VLAN Management > VLAN Settings.
+
+- Bước 2. Chọn hộp kiểm bên cạnh VLAN bạn muốn xóa.
+
+- Bước 3. Nhấn Delete để xóa VLAN đã chọn.
+- Xóa VLAN
+Bước 1. Đăng nhập vào tiện ích dựa trên web và chọn VLAN Management > VLAN Settings.
+
+Bước 2. Chọn hộp kiểm bên cạnh VLAN bạn muốn xóa.
+
+Bước 3. Nhấn Delete để xóa VLAN đã chọn.
+
+![image](https://user-images.githubusercontent.com/105496635/182061501-dd362143-2d2e-4f19-a07b-29fc0dc47a86.png)
+
+# 11. VLAN cung cấp những gì?
+ - VLAN giúp tăng hiệu suất mạng LAN cỡ trung bình và lớn vì nó hạn chế bản tin quảng bá. Khi số lượng máy tính và lưu lượng truyền tải tăng cao, số lượng gói tin quảng bá cũng gia tăng. Bằng cách sử dụng VLAN, bạn sẽ hạn chế được bản tin quảng bá.
+
+ - VLAN cũng tăng cường tính bảo mật bởi vì thực chất bạn đặt một nhóm máy tính trong một VLAN vào mạng riêng của chúng.
+
+# 13. Rủi ro bảo mật tiềm ẩn khi sử dụng VLAN
+- Mặc dù VLAN mang lại nhiều lợi ích, nhưng có một rủi ro bảo mật tiềm ẩn cần lưu ý. Nếu người dùng độc hại bằng cách nào đó có được quyền truy cập vào một thiết bị được kết nối với router, họ có thể hình dung ra lưu lượng truy cập đến các VLAN khác mà họ không nên có quyền truy cập trong một quá trình được gọi là tấn công VLAN hopping. Để ngăn chặn điều này, hãy đảm bảo rằng bạn bảo mật đúng cách cho tất cả các thiết bị trên mạng của mình và chỉ cho phép những người dùng đáng tin cậy truy cập chúng.
+
+- VLAN có thể là một công cụ hữu ích trong việc quản lý và bảo mật các mạng lớn. Tuy nhiên, như với bất kỳ công nghệ nào, có những rủi ro tiềm ẩn cần lưu ý. Hãy chắc chắn xem xét những điều này khi quyết định có sử dụng VLAN trên mạng của bạn hay không.
+
+
+            - Nguồn tham khảo: https://quantrimang.com/vlan-la-gi-lam-the-nao-de-cau-hinh-mot-vlan-tren-switch-cisco-64830#:~:text=VLAN%20l%C3%A0%20vi%E1%BA%BFt%20t%E1%BA%AFt%20c%E1%BB%A7a,thi%E1%BA%BFt%20b%E1%BB%8B%20cho%20m%E1%BB%99t%20m%E1%BA%A1ng.
+
+
+
+
+
 
 
 
