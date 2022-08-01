@@ -20,3 +20,20 @@ chuyển đổi IP từng gói tin và chuyển đến router cùng 1 số thi�
   
  - Trong quá trình chuyển gói tin từ mạng công cộng public ngược lại NAT, NAT cần tiến hành thay đổi IP đích sang dạng IP nội bộ. Sau đó mới chuyển đi.
 - Mặt khác, NAT còn hoạt động tương tự như một từờng lửa, hỗ trợ bảo mật IP của thiết bị. Giả sử máy tính bị gián đoạn khi kết nối với internet, IP public khi đó lập tức chuyển đổi thành IP thay thế mạng cục bộ.
+# Tìm hiểu IP Public và IP Private
+- Trong quá trình nghiên cứu khái niệm NAT là gì, bạn cần nắm rõ bản chất IP Public và IP Private.
+### IP Public
+![image](https://user-images.githubusercontent.com/105496635/182121476-2fd3e21d-4e1f-47ac-a935-93d01f84887a.png)
+
+- IP Public chính là IP ngoại miền. Thực chất, đây là dạng địa chỉ cung cấp bởi tổ chức nắm quyền điều phối mạng internet. Chẳng hạn như phía nhà mạng cung cấp dịch vụ internet.
+
+- Mỗi IP Public luôn mang tính duy nhất, cung cấp bởi phía nhà mạng internet. Điều này đồng nghĩa người dùng không thể tự động thay đổi IP.
+### IP Private
+- Từng thiết bị hoạt động trong hệ thống mạng nội bộ LAN đều có một địa chỉ IP Private riêng. Mỗi IP Private đều có khả năng liên kết với nhau hình thành mạng router. Tuy nhiên, chúng không kết nối trực tiếp với hệ thống internet bên ngoài.
+
+![image](https://user-images.githubusercontent.com/105496635/182121745-526752e5-00fd-4963-aa80-883aa5e0798c.png)
+ 
+ *Nếu muốn IP Private liên kết nối mạng internet bên ngoài, NAT cần tiến hành chuyển đổi từ IP Private sang IP Public.*
+
+
+
