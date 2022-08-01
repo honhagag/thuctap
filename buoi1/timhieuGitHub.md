@@ -73,7 +73,6 @@ Các bạn bật git bash lên và thực hiện cấu hình địa chỉ email 
 
  (note: 2 dấu – ko cách)
  
-![image](https://user-images.githubusercontent.com/97047640/166664626-385b14c9-bafd-415d-82bb-e5ba70619296.png)
 
 
 Sau khi cấu hình xong, chúng ta cần kết nối local với server.
