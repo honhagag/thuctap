@@ -1,5 +1,7 @@
 # NAT
-# Khái niệm: 
+## Khái niệm: 
+![image](https://user-images.githubusercontent.com/105496635/182116848-1b71f96f-3af7-40c1-85a3-a6a26686c360.png)
+
 - NAT hay Network Address Translation là một kỹ thuật chuyển đổi đặc biệt. 
 Theo đó kỹ thuật này có thể chuyển đổi IP nội miền sang IP ngoại miền. 
 Quá trình chuyển đổi này tương tự như việc hỗ trợ mạng cục bộ Private dễ dàng truy cập vào mạng internet công cộng.
@@ -9,3 +11,12 @@ Tuy nhiên ước tính chắc chắn có khoảng trên 100 triệu host, toàn
 Tốc độ phát triển nóng như vậy lại càng đòi hỏi sự tham gia của kỹ thuật NAT.
 Nhờ có kỹ thuật này, mạng cục bộ LAN sẽ mở rộng liên kết nối tiếp thuận lợi hơn. 
 Vậy nếu đã hiểu sơ qua NAT là gì, bạn hãy tìm hiểu tính năng chính của kỹ thuật NAT trong hệ thống mạng.
+
+## Chức năng chính của NAT trong hệ thống mạng
+![image](https://user-images.githubusercontent.com/105496635/182118253-b8152a90-56d4-4273-9601-3959969b0c64.png)
+- Trong hệ thống mạng NAT có vai trò giữ vài trò di chuyển các gói tin giữa các lớp mạng khác nhau. Cụ thể NAT cần tiến hành
+chuyển đổi IP từng gói tin và chuyển đến router cùng 1 số thiết bị khác
+![image](https://user-images.githubusercontent.com/105496635/182119245-cab7141e-2ee7-420c-88eb-2975fe172b82.png)
+  
+ - Trong quá trình chuyển gói tin từ mạng công cộng public ngược lại NAT, NAT cần tiến hành thay đổi IP đích sang dạng IP nội bộ. Sau đó mới chuyển đi.
+- Mặt khác, NAT còn hoạt động tương tự như một từờng lửa, hỗ trợ bảo mật IP của thiết bị. Giả sử máy tính bị gián đoạn khi kết nối với internet, IP public khi đó lập tức chuyển đổi thành IP thay thế mạng cục bộ.
