@@ -3,23 +3,23 @@
 #  *Giao thức Http & Https:
 I,Giao thức HTTP – Port 80 & giao thức HTTPS – Port 443
    1. Giao thức http- port 80:
--Giao thức HTTP viết tắt của Hybertext Transfer Protocol (HTTP). Đây là giao thức nền tảng của Word Wide Web. Giao thức HTTP được sử dụng để tải 
+- Giao thức HTTP viết tắt của Hybertext Transfer Protocol (HTTP). Đây là giao thức nền tảng của Word Wide Web. Giao thức HTTP được sử dụng để tải 
 nội dung của một website từ server chứa website đó đến máy của bạn.
--Giao thức HTTP sử dụng mô hình client-server và sử dụng giao thức TCP.
+- Giao thức HTTP sử dụng mô hình client-server và sử dụng giao thức TCP.
 Giao thức HTTP sử dụng 2 phương thức truy vấn dữ liệu sau để giao tiếp với server:
     + GET request: Get request được dùng để yêu cầu hoặc truy vấn dữ liệu từ một nguồn xác định nào đó. Ví dụ như khi bạn truy cập vào trang
     + Post request: Post request được dùng để gửi thông tin mà bạn đã nhập đến web server để sử lý. Ví dụ khi bạn nhập mật khẩu và password vào trang đăng nhập Facebook và bấm đăng nhập, bạn đang gửi một Post request đến server của Facebook đi kèm theo username và password của của bạn để Facebook xác thực tài khoản.
--Khi bạn gửi truy vấn đến một server chứa website nào đó, bạn sẽ nhận lại một HTTP response, có thể được hiểu như phản hồi của server về yêu cầu mà bạn đã gửi đến.
+- Khi bạn gửi truy vấn đến một server chứa website nào đó, bạn sẽ nhận lại một HTTP response, có thể được hiểu như phản hồi của server về yêu cầu mà bạn đã gửi đến.
   *Một HTTP response sẽ bao gồm những phần sau: (HTTP status code,HTTP response header.HTTP body (optional))
  
  Trong đó HTTP status code, sẽ cho biết là liệu HTTP request có được đáp ứng hay không. HTTP status code có dạng một dãy có 3 chữ số như sau:
 
- -1xx Hiển thị thông tin
- -2xx Báo hiệu yêu cầu đã được đáp ứng thành công
- -3xx Báo hiệu request đã được chuyển hướng sang một địa chỉ server khác
- -4xx Lỗi do client
- -5xx Lỗi do server
- -Giá trị xx sẽ chạy từ 00 đến 99.
+ - 1xx Hiển thị thông tin
+ - 2xx Báo hiệu yêu cầu đã được đáp ứng thành công
+ - 3xx Báo hiệu request đã được chuyển hướng sang một địa chỉ server khác
+ - 4xx Lỗi do client
+ - 5xx Lỗi do server
+ - Giá trị xx sẽ chạy từ 00 đến 99.
  HTTP response header, sẽ cho biết những thông tin quan trọng như ngôn ngữ (ở đây là HTML) và định dạng dữ liệu nào được gửi ở phần HTTP body, status code, ngày giờ dữ liệu được gửi, v.v.
 
 HTTP response body, sẽ là phần nội dung mà bạn yêu cầu. Đương nhiên nếu server gặp lỗi, không phản hồi thì HTTP response sẽ không có phần này.
