@@ -1,7 +1,6 @@
 # Các giao thức chính
 
-#  *Giao thức Http & Https:
-I,Giao thức HTTP – Port 80 & giao thức HTTPS – Port 443
+I, Giao thức HTTP – Port 80 & giao thức HTTPS – Port 443
    1. Giao thức http- port 80:
 - Giao thức HTTP viết tắt của Hybertext Transfer Protocol (HTTP). Đây là giao thức nền tảng của Word Wide Web. Giao thức HTTP được sử dụng để tải 
 nội dung của một website từ server chứa website đó đến máy của bạn.
