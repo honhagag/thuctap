@@ -13,6 +13,7 @@
 - Nhược điểm: Không phải miễn phí, bạn cần phải mua bản quyền để sử dụng
 
 ![image](https://user-images.githubusercontent.com/105496635/182327583-35524f36-acfc-4742-bd92-03bb916891a3.png)
+*Hệ điều hành Window*
 
 
 #### 2.2. Hệ điều hành macOS
@@ -24,6 +25,7 @@ Trước đây macOS còn có tên là OS X, được tạo ra bởi apple và �
 - Nhược điểm: Vì số người sử dụng macOS ít nên có nhiều phần mềm chưa được phát hành cho hệ điều hành này.
  
  ![image](https://user-images.githubusercontent.com/105496635/182327623-aa03b48f-22a3-4b7f-9ead-06fa402bb022.png)
+ *Hệ điều hành MacOS*
 
 #### 2.3. Hệ điều hành Linux
 
@@ -34,6 +36,7 @@ Là một hệ điều hành mở, có nghĩa là bạn có thể sửa đổi, 
 - Nhược điểm: Rất ít người sử dụng, tính bảo mật không cao, giao diện có phần cổ điển
 
 ![image](https://user-images.githubusercontent.com/105496635/182327903-b4e3e257-a374-4629-99d1-2efbffc1757f.png)
+*Hệ điều hành Linux*
 
  ### Hệ điều hành cho thiết bị di động
  #### 2.4 Hệ điều hành Android
@@ -45,6 +48,7 @@ Hệ điều hành Android được phát triển bởi công ty Android Inc và
 - Nhược điểm: Hiện tại độ bảo mật của Android là khá cao nhưng sẽ không bằng nếu so sánh với iOS.
 
 ![image](https://user-images.githubusercontent.com/105496635/182329269-1cec3f75-8412-41a6-8791-a9d00c992c16.png)
+*Hệ điều hành Android*
 
 #### 2.5.  Hệ điều hành iOS
 
@@ -55,6 +59,7 @@ iOS là hệ điều hành được sử dụng duy nhất trên các thiết b�
 - Nhược điểm: Hệ điều hành chỉ độc quyền cho các dòng điện thoại của Apple và không thể sử dụng trên các điện thoại khác, kho ứng dụng ít hơn so với Android.
 
 ![image](https://user-images.githubusercontent.com/105496635/182329355-e2fa2031-24dd-469e-b021-32432ea3cf11.png)
+*Hệ điều hành IOS*
 
 
 
