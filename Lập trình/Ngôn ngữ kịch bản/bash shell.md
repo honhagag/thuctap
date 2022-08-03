@@ -15,8 +15,21 @@ Thay vì thực hiện từng câu lệnh Bash một. Chúng ta có thể tổ h
 
 Ví dụ, tạo một script Hello World
 
-Tạo một file với tên là hello-world.sh
+##### Tạo một file với tên là hello-world.sh
 
 ![image](https://user-images.githubusercontent.com/105496635/182521897-f369d1a6-7a61-49ea-ab55-d18d50aa2574.png)
+
+##### Phân quyền thực thi được với câu lệnh
+
+![image](https://user-images.githubusercontent.com/105496635/182540601-c2390120-3399-49fc-a575-a29a35ff90a7.png)
+
+##### Thêm nội dung sau vào script
+![image](https://user-images.githubusercontent.com/105496635/182540873-bb5168dc-0d2d-42bb-af33-f64c721be9cd.png)
+- Dòng 1 : Dòng đầu tiên của script phải bắt đầu với ký tự ` #! `, theo đúng cấu trúc shebang1. Cấu trúc shebang sẽ chỉ cho OS chạy chương trình `/bin/bash` để thực hiện các nội dung của script. VD : /bin/bash hello-world
+- Dòng 2 : Sử dụng câu lệnh echo để ghi dòng Hello World ra output.
+Thực hiện chạy sript hello-world.sh theo 1 trong 3 cách sau:
+![image](https://user-images.githubusercontent.com/105496635/182541381-b21409e6-ef18-4dcf-84c9-68e0402d0031.png)
+
+
 
   
