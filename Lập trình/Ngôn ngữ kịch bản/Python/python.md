@@ -72,3 +72,21 @@ Python 3, còn gọi là Python 3000 hoặc Py3K: Dòng 3.x sẽ không hoàn to
 - Python có thể kết nối với các hệ thống cơ sở dữ liệu. Nó cũng có thể đọc và sửa đổi các tập tin.
 - Nó có thể được sử dụng để xử lý dữ liệu lớn và thực hiện phép tính phức tạp.
 - Python có thể được sử dụng để tạo mẫu nhanh hoặc phát triển phần mềm sẵn sàng sản xuất.
+
+### Tại sao lại là Python?
+- Đầu tiên Python hoạt động trên các nền tảng khác nhau (Windows, Mac, Linux, Raspberry Pi, v.v.).
+- Tiếp theo, Python có một cú pháp đơn giản tương tự như ngôn ngữ tiếng Anh.
+- Python có cú pháp cho phép các nhà phát triển viết chương trình với ít dòng hơn một số ngôn ngữ lập trình khác.
+- Python chạy trên một hệ thống thông dịch, nghĩa là mã có thể được thực thi ngay khi được viết. Điều này có nghĩa là tạo mẫu có thể rất nhanh.
+- Python có thể được xử lý theo cách thủ tục, cách hướng đối tượng hoặc hướng chức năng.
+
+
+### Một số điều nên biết
+- Phiên bản chính gần đây nhất của Python là Python 3, mà chúng ta sẽ sử dụng trong hướng dẫn này. Tuy nhiên, Python 2, mặc dù không được cập nhật với bất kỳ thứ gì ngoài bản cập nhật bảo mật, nhưng vẫn khá phổ biến.
+- Trong hướng dẫn này Python sẽ được viết trong một trình soạn thảo văn bản. Có thể viết Python trong Môi trường phát triển tích hợp, chẳng hạn như Thonny, Pycharm, Netbeans hoặc Eclipse, đặc biệt hữu ích khi quản lý các bộ sưu tập tệp Python lớn hơn.
+
+
+### Cú pháp Python so với các ngôn ngữ lập trình khác
+- Python được thiết kế để dễ đọc và có một số điểm tương đồng với ngôn ngữ tiếng Anh với ảnh hưởng từ toán học.
+- Nó sử dụng các dòng mới để hoàn thành một lệnh, trái ngược với các ngôn ngữ lập trình khác thường sử dụng dấu chấm phẩy hoặc dấu ngoặc đơn.
+- Python dựa vào thụt lề, sử dụng khoảng trắng, để xác định phạm vi; chẳng hạn như phạm vi của các vòng lặp, hàm  và các lớp. Các ngôn ngữ lập trình khác thường sử dụng dấu ngoặc nhọn cho mục đích này.
