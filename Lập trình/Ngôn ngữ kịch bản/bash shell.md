@@ -30,6 +30,33 @@ Ví dụ, tạo một script Hello World
 Thực hiện chạy sript hello-world.sh theo 1 trong 3 cách sau:
 ![image](https://user-images.githubusercontent.com/105496635/182541381-b21409e6-ef18-4dcf-84c9-68e0402d0031.png)
 
+### 2. Sử dụng các biến trong Linux
+Tạo một file mới tên gọi `hello.sh` với nội dung bên dưới và cấp quyền thực thi `chmod +x hello.sh`
+
+Thực hiện chạy sript với cú pháp `./hello.sh`. Output mong đợi sẽ là :
+
+![image](https://user-images.githubusercontent.com/105496635/182542058-c6a94829-c1f4-42b6-b225-d9ce5c0caa08.png)
+
+- Nội dung script như sau :
+ Phân tích từng dòng của script sẽ như sau :
+ - Dòng 1 : #!/usr/bin/env bash : Cú pháp shebang chỉ ra chương trình cần thực thi với Bash shell
+ - Dòng 2 : Gán biến who_variable có nội dung là World.
+ - Dòng 3 :
+ `printf` : câu lệnh in
+`%s` : format chỉ ra rằng biến phía sau phải là dạng string
+`\n` : khi có thêm ký tự thì sẽ xuống dòng mới
+`$who_variable` : biến được khai báo ở dòng trên
+
+### 3. Truyên tham số vào biến với User Input
+- Các biến còn có thể được truyền vào trực tiếp từ người dùng như sau :
+
+![image](https://user-images.githubusercontent.com/105496635/182544122-45f5c4dd-851f-451b-8b60-f7b6c8f6692f.png)
+
+Khi script chạy tới dòng thứ 2, câu lệnh read sẽ đọc dữ liệu truyền vào từ người dùng, sau đó gán dữ liệu đó vào biến name.
+
+Kết quả như sau :
+
+![image](https://user-images.githubusercontent.com/105496635/182544169-71d988df-4e2a-464d-8677-a97d0ecf3788.png)
 
 
   
