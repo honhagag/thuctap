@@ -58,5 +58,53 @@ Kết quả như sau :
 
 ![image](https://user-images.githubusercontent.com/105496635/182544169-71d988df-4e2a-464d-8677-a97d0ecf3788.png)
 
+### 4. Tầm quan trọng của các dấu nháy (quoting) với String#
+#### Việc sử dụng dấu nháy rất quan trọng trong việc thể hiện string trong bash.
 
-  
+Có 2 dạng dấu nháy :
+
+ - Weak quoting : dấu nháy kép “
+ - Strong quoting : dấu nháu đơn ‘
+- TH1 : Weak quoting (nháy kép)
+Sử dụng nháy kép khi bạn muốn bash thực thi các biến String được truyền vào. Ví dụ, với script như sau :
+
+![image](https://user-images.githubusercontent.com/105496635/182546752-e4ca7d75-b822-48fa-9e95-754f957c9aff.png)
+
+`Output hiện ra sẽ là : Hello World`
+
+
+- H2 : Strong quoting (nháy đơn)
+ Sử dụng nháy đơn khi bạn muốn giữ nguyên nội dung trong dấu nháy. Ví dụ :
+  ![image](https://user-images.githubusercontent.com/105496635/182546923-d65aaf35-c7bc-461f-ad66-2d00d5982a21.png)
+
+
+### 5. Chế độ Debug trong Shell#
+Để có thể theo dõi quá trình thực thi script nhằm hiểu rõ hơn về cách script thực hiện, hoặc tìm lỗi trong script, chúng ta có thể dùng chế độ Debug.
+
+Để thực hiện việc debug, cần thêm tổ hợp ký tự ` -x ` đằng sau các mệnh lệnh run.
+
+#### Ví dụ 1
+Bật mode debug với script hello-world.sh ở phần 1.3 nhằm theo dõi quá trình thực thi script
+
+![image](https://user-images.githubusercontent.com/105496635/182547092-19fd6f05-8d75-4e92-87f9-24eedf53ae84.png)
+
+#### Ví dụ 2
+Bật mode debug để tìm lỗi có trong script hello.sh sau :
+
+![image](https://user-images.githubusercontent.com/105496635/182547253-ba5a7d67-7ced-4893-b81c-df8947554d48.png)
+
+Output hiển thị sẽ là :
+
+![image](https://user-images.githubusercontent.com/105496635/182547320-22971dd6-61d5-4609-8cbd-cf182c66b461.png)
+
+
+Tuy nhiên, nội dung output như vậy là chưa đủ để chúng ta tìm ra lỗi của script. Hãy thử bật mode debug để tìm lỗi :
+
+![image](https://user-images.githubusercontent.com/105496635/182547374-2f71c99c-ffcf-472a-b031-82d4d4941959.png)
+
+Có thể thấy do `s `không phải là một chữ số vậy nên toán tử không thể thực hiện được.
+
+
+
+
+
