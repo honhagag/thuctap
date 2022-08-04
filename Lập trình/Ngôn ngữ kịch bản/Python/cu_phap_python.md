@@ -31,3 +31,23 @@ Bảng dưới liệt kê các từ khóa trong Python. Đây là các từ dàn
 Python không cung cấp các dấu ngoặc nhọn({}) để chỉ các khối code cho định nghĩa lớp hoặc hàm hoặc điều khiển luồng. Các khối code được nhận biết bởi độ thụt dòng code (indentation) trong Python và đây là điều bắt buộc.
 
 Số khoảng trống trong độ thụt dòng là biến đổi, nhưng tất cả các lệnh bên trong khối phải được thụt cùng một số lượng khoảng trống như nhau. Ví dụ:
+
+1.  if True:
+2.    print "True"
+3. else:
+4.  print "False"
+
+
+1. if True:
+2.     print "Answer"
+3.     print "True"
+4. else:
+5.     print "Answer"
+6.   print "False"
+
+
+
+Do đó, trong Python thì tất cả các dòng liên tiếp nhau mà được thụt đầu dòng với cùng lượng khoảng trống như nhau sẽ tạo nên một khối.
+
+
+
