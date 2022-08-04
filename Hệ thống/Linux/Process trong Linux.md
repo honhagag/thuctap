@@ -17,7 +17,7 @@ Theo mặc định , mọi process mà bạn bắt đầu chạy là foreground 
 
 Trong khi một chương trình đang chạy trong foreground và cần một khoảng thời gian dài, chúng ta không thể chạy bất kỳ lệnh khác (bắt đầu process khác) bởi vì dòng nhắc lệnh không có sẵn tới khi chương trình đang chạy kết thúc process và thoát ra.
 
-## 1.2) Background Process
+## 1.2. Background Process
 
 Background process chạy mà không được kết nối với bàn phím của bạn . Nếu backround process yêu cầu bất cứ đầu vào từ bàn phím , chương trinh sẽ đợi .
 
@@ -27,7 +27,10 @@ Lợi thế của chạy một chương trình trong background là có thể ch
 
 #### ping -c 10 8.8.8.8 &
 
+## 1.3. Job ID với Process ID
 
+Background process và foreground thường được thao tác thông qua Job ID . Số này khác với Process ID và được sử dụng bởi vì nó ngắn hơn .
+Ngoài ra , một công việc có thể bao gồm nhiều process đang chạy trong seri hoặc tại cùng một thời gian , song song , vì thế sử dụng Job ID là dễ dàng hơn theo dõi các tiến trình riêng lẻ .
 
 
 
