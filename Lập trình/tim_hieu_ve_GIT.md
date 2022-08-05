@@ -92,17 +92,12 @@ Master là nhánh chính của tất cả các repository của bạn. Nó nên 
 Lệnh git merge kết hợp với các yêu cầu kéo (pull requests) để thêm các thay đổi từ nhánh này sang nhánh khác.
 
 10. Origin
-11.
-12.  ![image](https://user-images.githubusercontent.com/105496635/182992656-0fc64f6f-188b-4cb8-badf-e8565ad5bf0c.png)
 
-Origin là phiên bản mặc định của repository. Origin cũng đóng vai trò là bí danh hệ thống để liên lạc với nhánh chính.
-
-Lệnh git push origin master để đẩy các thay đổi cục bộ đến nhánh chính.
+ ![image](https://user-images.githubusercontent.com/105496635/182992656-0fc64f6f-188b-4cb8-badf-e8565ad5bf0c.png)
 
 11. Pull
 Pull requests thể hiện các đề xuất thay đổi cho nhánh chính. Nếu bạn làm việc với một nhóm, bạn có thể tạo các pull request để yêu cầu người bảo trì kho lưu trữ xem xét các thay đổi và hợp nhất chúng.
 
-Lệnh git pull được sử dụng để thêm các thay đổi vào nhánh chính.
 
 12. Push
 Lệnh git push được sử dụng để cập nhật các nhánh từ xa với những thay đổi mới nhất mà bạn đã commit.
