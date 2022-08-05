@@ -1,6 +1,20 @@
 # Các giao thức chính
+[1. Giao thức HTTP-HTTPS](#1)
 
-I, Giao thức HTTP – Port 80 & giao thức HTTPS – Port 443
+[2. Giao thứ FTP](#2)
+
+[3. Giao thứ SSH](#3)
+
+[4. Giao thứ ARP](#4)
+
+[5. Giao thứ DNS](#5)
+
+[6. Giao thứ DHCP](#6)
+
+[7. Giao thứ SNMP](#7)
+
+<a name = "1"></a>
+## I, Giao thức HTTP – Port 80 & giao thức HTTPS – Port 443
    1. Giao thức http- port 80:
 - Giao thức HTTP viết tắt của Hybertext Transfer Protocol (HTTP). Đây là giao thức nền tảng của Word Wide Web. Giao thức HTTP được sử dụng để tải 
 nội dung của một website từ server chứa website đó đến máy của bạn.
@@ -38,8 +52,8 @@ HTTPS sử dụng một giao thức mã hóa để mã hóa thông tin liên l�
 Khóa riêng tư - khóa này được kiểm soát bởi chủ sở hữu của một trang web và nó được giữ, như người đọc có thể đã suy đoán, là riêng tư. Khóa này nằm trên máy chủ web và được sử dụng để giải mã thông tin được mã hóa bởi khóa công khai.
 Khóa công khai - khóa này khả dụng cho tất cả những ai muốn tương tác với máy chủ theo cách an toàn. Thông tin được mã hóa bằng khóa công khai chỉ có thể được giải mã bằng khóa riêng. 
 
-
-II, Giao thức FTP – Port 20, 21
+<a name="2"></a>
+## II, Giao thức FTP – Port 20, 21
  - Giao thức FTP viết tắt của File Transfer Protocol. Giao thức FTP được dùng để trao đổi file giữa 1 client và 1 server. Hay nói cách khác, FTP sẽ cho phép các máy trong cùng một mạng có thể trao đổi file dữ liệu qua lại với nhau thông qua một server trung gian.
      Một cách tóm tắt thì FTP sẽ hoạt động như sau:
         1. Bạn sẽ được cấp cho một tài khoản với username và password để từ máy của bạn (client) kết nối đến máy chủ đang chạy FTP (server).
@@ -65,7 +79,8 @@ ftp <IP-address> <port>
 hoặc 
 nc <IP-address> <port> 
 
-III,Giao thức SSH – Port 22
+   <a name="3"></a>
+## III,Giao thức SSH – Port 22
 -Giao thức SSH viết tắt của Secure Shell. SSH là một giao thức dùng cho phép bạn truy cập máy chủ từ xa với đường truyền được mã hóa nhằm bảo vệ thông tin được truyền đi.
 
 -Không chỉ dùng để kết nối đến máy chủ, SSH còn cho phép bạn thực thi mệnh lệnh và truy cập từ xa vào các hệ thống mạng, thiết bị và ứng dụng nằm trong mạng nội bộ của công ty.
@@ -80,7 +95,8 @@ ssh <IP-address>/<host>
 hoặc
 ssh username@<IP-address>/<host>
 
-IV, Bộ giao thức ARP
+   <a name="4"></a>
+## IV, Bộ giao thức ARP
 1. ARP là gì? Mục đích và cách thức hoạt động của ARP
   - ARP (viết tắt của cụm từ Address Resolution Protocol) là giao thức mạng được dùng để tìm ra địa chỉ phần cứng (địa chỉ MAC) của thiết bị từ một địa chỉ IP nguồn. Nó được sử dụng khi một thiết bị giao tiếp với các thiết bị khác dựa trên nền tảng local network. Ví dụ như trên mạng Ethernet mà hệ thống yêu cầu địa chỉ vật lý trước khi thực hiện gửi packets. 
   - Thiết bị gửi sử dụng ARP để có thể dịch địa chỉ IP sang địa chỉ MAC. Thiết bị sẽ gửi một request ARP đã chứa địa chỉ IP của thiết bị nhận. Tất cả thiết bị trên đoạn local network sẽ nhìn thấy thông điệp này. Tuy nhiên, chỉ thiết bị có địa chỉ IP chứa trong request mới có thể phản hồi lại với thông điệp mà chứa địa chỉ MAC của nó. Thiết bị gửi khi đó sẽ có đầy đủ các thông tin để gửi packet tới thiết bị nhận.
@@ -111,8 +127,8 @@ IV, Bộ giao thức ARP
 
     + Target Protocol Address: Địa chỉ lớp ba (hay gọi là  địa chỉ logic) của thiết bị đích của bản tin
 
-
-V, Hệ thống DNS
+   <a name="5"></a>
+## V, Hệ thống DNS
     - Hệ thống DNS viết tắt của Domain Name System. Đây là một hệ thống có nhiệm vụ dịch từ tên miền ra địa chỉ IP được dùng để gán cho tên miền đó.
     -  Địa chỉ IPv4 hoặc IPv6 rất khó nhớ đối với người dùng thông thường. Nên thay vì bắt họ phải nhớ một dãi số để truy cập một website, để cho họ nhớ một chuỗi ký tự có nghĩa và dễ nhớ. Nên dns đã ra đời để thay thế chuỗi đó
     - Có thể xem DNS giống như một cuốn danh bạ điện thoại vậy. Thay vì lưu giữ tên công ty với số điện thoại tương ứng, DNS sẽ lưu giữ tên miền (ví dụ tuhocnetworksecurity) với địa chỉ IP tương ứng.
@@ -127,8 +143,8 @@ Name:   google.com
 Address: 172.217.14.206
 Name:   google.com
 Address: 2607:f8b0:400a:801::200e
-
-VI, DHCP là gì?
+   <a name="6"></a>
+## VI, DHCP là gì?
 1. DHCP là gì?
     - DHCP được viết tắt từ cụm từ Dynamic Host Configuration Protocol (có nghĩa là Giao thức cấu hình máy chủ). DHCP có nhiệm vụ giúp quản lý nhanh, tự động và tập trung việc phân phối địa chỉ IP bên trong một mạng. Ngoài ra DHCP còn giúp đưa thông tin đến các thiết bị hợp lý hơn cũng như việc cấu hình subnet mask hay cổng mặc định.
 
@@ -166,7 +182,9 @@ VI, DHCP là gì?
     - Bởi DHCP sử dụng chủ yếu với các hộ gia đình hay văn phòng. Đối với các thiết bị dùng trong văn phòng, như máy in thì việc việc gán chúng với các địa chỉ IP thay đổi không mang tính thực tiễn. Lúc đó mỗi khi kết nối với máy tính khác thì máy in đó sẽ phải thường xuyên cập nhật cài đặt để máy tính có thể kết nối với máy in.
     - Cũng giống như việc bạn điều khiến máy tính từ xa và cần có quyền truy cập thì bạn phải có địa chỉ IP. Nếu như địa chỉ IP đó động thì những gì máy tính đã ghi lại sẽ không chính xác được lâu. Vậy nên nếu trong trường hợp này thì bạn nên sử dụng IP tĩnh là phù hợp hơn cả.
 
-VII, Giao thức SNMP
+   
+   <a name="7"></a> 
+## VII, Giao thức SNMP
 1. SNMP là gì?
 - SNMP (Simple Network Management Protocol) là một giao thức tầng ứng dụng được Hội đồng Kiến trúc Internet (IAB) xác định trong RFC1157 để trao đổi thông tin quản lý giữa các thiết bị mạng. Nó là một phần của Transmission Control Protocol/Internet Protocol (TCP/IP).
 2. SNMP Manager
