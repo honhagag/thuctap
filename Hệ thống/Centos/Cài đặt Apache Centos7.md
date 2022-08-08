@@ -46,4 +46,29 @@ Sau khi cài đặt cần bạn cần tải lại firewall để các quy tắc 
 ![image](https://user-images.githubusercontent.com/105496635/183337549-e69179a8-0189-465f-ac0c-79613c761aa2.png)
 
 
+## Kiểm tra Web Server
+ - Apache trên CentOS sẽ không tự khởi động, mà khởi động thử công, sử dụng lệnh `sudo systemctl start httpd`
+
+![image](https://user-images.githubusercontent.com/105496635/183339799-e7f73bda-968a-4fc3-a7cd-a8b635fd76a9.png)
+
+- Để chắc chắn hơn thì chúng ta sử dụng `sudo systemctl status httpd`
+
+
+![image](https://user-images.githubusercontent.com/105496635/183339959-a3f088e9-65d4-42f8-934d-f059420d83d2.png)
+
+Sau khi thực hiện lệnh cho kết quả
+
+![image](https://user-images.githubusercontent.com/105496635/183340108-66d8a588-1daf-4e6b-ae7c-03596c256f2c.png)
+
+Như vậy đã hoàn thành cài Apache trên CentOS 7
+
+- Để xem web đã cài thì sử dụng địa chỉ IP của CentOS 7, để xem địa chỉ IP của CentOS 7 sử dụng lệnh `hostnam -I`
+
+![image](https://user-images.githubusercontent.com/105496635/183340859-a33ba8cb-9294-4b53-b1d0-797c18472f07.png)
+
+Sử dụng Ip để truy cập vào máy chủ
+
+![image](https://user-images.githubusercontent.com/105496635/183340999-1b5a187d-e0b7-4509-a693-a6d55e33b6de.png)
+
+
 
