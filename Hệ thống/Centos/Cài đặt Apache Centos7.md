@@ -81,3 +81,6 @@ Sử dụng Ip để truy cập vào máy chủ
  - Trong trường hợp đã tắt chức năng tự khởi động nhưng muốn bật lại, hãy dùng lệnh:`sudo systemctl enable httpd`
 
 
+ 
+
+
