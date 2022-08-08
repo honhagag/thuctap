@@ -71,4 +71,13 @@ Sử dụng Ip để truy cập vào máy chủ
 ![image](https://user-images.githubusercontent.com/105496635/183340999-1b5a187d-e0b7-4509-a693-a6d55e33b6de.png)
 
 
+## Một số lệnh cơ bản trong CentOS 
+ - Muốn dừng máy chủ `sudo systemctl stop httpd`
+ - Khởi động lại máy chủ `sudo systemctl start httpd`
+ - Để dừng và bắt đầu lại dịch vụ trên máy chủ `sudo systemctl restart httpd`
+ - Nếu bạn thay đổi về cấu hình, Apache sẽ tự tải lại và không làm mất kết nối ta sử dụng  `sudo systemctl reload httpd`
+ - Apache được cấu hình mặc định có thể tự khởi động khi máy chủ được khởi động. Nếu như không muốn điều này, bạn có thể tắt chức năng đó bằng cách dùng lệnh:
+`sudo systemctl disable httpd`
+ - Trong trường hợp đã tắt chức năng tự khởi động nhưng muốn bật lại, hãy dùng lệnh:`sudo systemctl enable httpd`
+
 
