@@ -43,3 +43,14 @@ Web Server nó sẽ gửi thông tin từ Client yêu cầu. Nêu nó không t�
 Web server có nhiệm vụ chính là thực hiện lưu trữ file của website
 Trong quá trình tìm hiểu web server là gì, bạn cần lưu ý tham khảo cơ chế lưu trữ và giao tiếp thông qua HTTP.
 
+## 6. Cách lưu trữ các file
+Web server có nhiệm vụ chính là thực hiện lưu trữ file của website. Bao gồm toàn bộ file HTML và một số file liên quan khác. Xét trên khía cạnh kỹ thuật, tất cả file đều có thể lưu trên máy tính. Thế nhưng nếu muốn thuận lợi hơn, bạn nên lưu trữ chúng trên web server.
+## 7.Giao tiếp thông qua HTTP
+Ngoài chức năng lưu trữ, web server còn có thể giao tiếp thông qua HTTP. Cụ thể, HTTP hỗ trợ cách thức truyền siêu văn bản giữa hai thiết bị. Hãy hiểu đơn giản nó là tập hợp nhiều quy tắc truyền thông giữa hai thiết bị, cụ thể ở đây là hai máy tính. HTTP giống như giao thức nguyên văn, không phân cấp.
+- Textual: Gồm toàn bộ lệnh văn bản thuần túy, người dùng dễ dàng đọc.
+- Stateless: Gồm máy chủ và máy khách không lưu lại thao tác thực hiện trước đó.
+HTTP đề ra quy tắc rõ ràng với cả người dùng và hệ thống máy chủ giao tiếp. Như vậy trong quá trình thực hiện giao tiếp, bạn cần ghi nhớ một vài điểm dưới đây.
+- Chỉ máy khách mới có quyền người yêu cầu đến máy chủ. Đồng thời, chỉ có máy chủ có thể phản hồi yêu cầu của máy khách.
+- Nếu tiến hành gửi một file qua HTTP, máy khách phải cung cấp chính xác URL của file.
+- Máy chủ web có trách nhiệm phản hồi tất cả yêu cầu HTTP, đặc biệt là thông báo lỗi.
+Trên hệ thống máy chủ web, máy chủ HTTP cần thực hiện xử lý và phản hồi yêu cầu. Khi yêu cầu gửi đến, máy chủ HTTP thứ nhất cần kiểm tra URL xem có khớp với file hay không. Nếu khớp, máy chủ lập tức gửi nội dung file về trình duyệt. Trường hợp không khớp, máy chủ sẽ tạo file phù hợp.
