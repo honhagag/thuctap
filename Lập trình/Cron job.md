@@ -11,5 +11,25 @@ mà cần lặp đi lặp lại
  - Cron jobs thường được dùng chủ yếu bởi quản trị viên hệ thống nhưng nó cũng có ích với cả quản trị viên web. Ví dụ, dùng cron để hủy kích hoạt tài khoản đã hết hạn,
  - kiểm tra links hỏng, hoặc gửi bản tin cho người dùng mục tiêu.
 
-# Những điều cơ bản về Cron job
-Sử dụng Cron job trên ubuntu
+# Cách viết cú pháp đúng 
+File cron gồm có 5 trường, mỗi trường đại diện bởi một dấu hoa thị. Chúng dùng để xác định ngày tháng năm và thời gian tác vụ nhất định được thiết lập 
+để hoạt động đi hoạt động lại
+
+![image](https://user-images.githubusercontent.com/105496635/184057276-209e242b-736e-4bea-8b61-2ae6e8c6e256.png)
+
+- Minute: Phút của giờ mà lệnh sẽ chạy, trong khoảng từ 0 đến 59 
+- Hour : Dựa trên giờ mà lệnh chạy, trong khoảng từ 0 đến 23
+- Day of the month: Dựa trên ngày tháng mà  bạn muốn chạy lệnh khoảng từ  1 đến 31
+- Month: Dựa trên tháng mà bạn muốn chạy, trong khoảng từ 1 đến 12
+- Day of the week: Dựa trên tuần mà bạn muốn chạy, trong khoảng từ 1 đến 12
+
+Thêm vào đó, bạn cần dùng kí tự đúng với mỗi file crontab.
+
+- Dấu hoa thị (*) – để xác định tất cả tham số được lên lịch
+- Dấu phẩy (,) – để duy trì 2 hoặc nhiều lần thực thi một lệnh
+- Dấu gạch nối (-) – để xác định khoảng thời gian thiết lập lần thực thi một lệnh
+- Dấu gạch chéo (/) – để tạo khoảng thời gian nghỉ cụ thể
+- Cuối cùng (L) – cho mục đích cụ thể là chỉ định ngày cuối cùng của tuần trong tháng. Ví dụ, 3L nghĩa là thứ tư cuối cùng.
+- Ngày trong tuần (W) – để xác định ngày trong tuần gần nhất. Ví dụ, 1W nghĩa là nếu ngày 1 là thứ 7, lệnh sẽ chạy vào thứ hai (ngày 3)
+- Hash (#) – để xác định ngày của tuần, theo sau bởi số chạy từ 1 đến 5. Ví dụ, 1#2 nghĩa là ngày thứ Hai thứ hai.
+- Dấu chấm hỏi (?) – để để lại khoảng trống
