@@ -54,3 +54,20 @@ HTTP đề ra quy tắc rõ ràng với cả người dùng và hệ thống má
 - Nếu tiến hành gửi một file qua HTTP, máy khách phải cung cấp chính xác URL của file.
 - Máy chủ web có trách nhiệm phản hồi tất cả yêu cầu HTTP, đặc biệt là thông báo lỗi.
 Trên hệ thống máy chủ web, máy chủ HTTP cần thực hiện xử lý và phản hồi yêu cầu. Khi yêu cầu gửi đến, máy chủ HTTP thứ nhất cần kiểm tra URL xem có khớp với file hay không. Nếu khớp, máy chủ lập tức gửi nội dung file về trình duyệt. Trường hợp không khớp, máy chủ sẽ tạo file phù hợp.
+
+
+## Apache HTTP server
+- Apache là gì? Web server Apache là phần mềm nổi tiếng trên thế giới được phát triển bởi Quỹ Apache Software. Đây là phần mềm có mã nguồn mở, hỗ trợ hầu hết các hệ điều hành như Windows, Mac OS X, FreeBSD, Unix, Linux,... Trên thế giới có khoảng hơn 60% máy tính chạy trên phần mềm này.
+- Phần mềm máy chủ Apache có cấu trúc dạng module nên thực hiện rất dễ dàng. Người dùng có thể sửa đổi, bổ sung các module khác vào server (nếu cần).
+
+## Web server Nginx
+Nginx là gì? Web server Nginx là một gợi ý tiếp theo về một máy chủ có mã nguồn mở miễn phí. Phần mềm bao gồm máy chủ POP3 và IMAP. Có ưu điểm là tính ổn định, hiệu suất cao, cấu hình thân thiện và sử dụng tài nguyên thấp. Nó sử dụng kiến trúc lập trình theo sự kiện, có khả năng mở rộng để xử lý các yêu cầu chứ không dùng các chuỗi phức tạp. Nginx hiện đang lưu trữ khoảng 7.5% các tên miền trên khắp thế giới.
+
+![image](https://user-images.githubusercontent.com/105496635/184092442-bedfb532-7f26-4791-b3a4-f62188292c5c.png)
+
+
+## Web server IIS
+IIS là gì? Web server IIS là một sản phẩm của Microsoft và cũng có nhiều tính năng tương tự như Apache bên trên. Tuy nhiên, nó không phải là mã nguồn mở cũng như việc chỉnh sửa các module không hề đơn giản.
+
+![image](https://user-images.githubusercontent.com/105496635/184092528-1ad7e313-85f6-4a8e-bf64-e31ac15caa6d.png)
+
