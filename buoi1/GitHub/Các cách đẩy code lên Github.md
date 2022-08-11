@@ -16,9 +16,22 @@ https://github.com/honhagag/comitcodegithub.git
 
 ![image](https://user-images.githubusercontent.com/105496635/184049121-d9ddf14c-30ec-4ce5-9f67-db2d91296855.png)
 
-## 2. . Clone repo về máy
+## 2. Clone repo về máy
 Tiếp theo, việc của bạn bây giờ là hãy clone repo mới này về máy của mình bằng lệnh git clone địa_chỉ.
 
 Ví dụ ở trên, chúng ta sẽ clone repo về máy bằng lệnh:
 
 $ git clone https://github.com/honhagag/comitcodegithub.git
+
+## 3. Push code lên git
+Thêm/sửa/xóa các file/thư mục trên repo vừa clone về, sau đó lần lượt chạy từng lệnh sau:
+
+$ git add
+
+$ git commit -m "điền nội dung commit vào đây"
+
+$ git push origin master
+
+Chú ý: Trỏ đúng thư mục mà chúng ta clone git về, ví dụ cd 'tên thư mục' để chuyển đến.
+
+
