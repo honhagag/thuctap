@@ -71,3 +71,7 @@ IIS là gì? Web server IIS là một sản phẩm của Microsoft và cũng có
 
 ![image](https://user-images.githubusercontent.com/105496635/184092528-1ad7e313-85f6-4a8e-bf64-e31ac15caa6d.png)
 
+## Web server CentOS
+CentOS là viết tắt của Community Enterprise Operating System (Hệ điều hành Doanh nghiệp Cộng đồng). Một trong những Bản phân phối Linux do Gregory Kurtzer khởi xướng. Nó cung cấp Hệ điều hành nguồn mở và miễn phí cấp doanh nghiệp. Cũng tương thích về chức năng với Red Hat Enterprise Linux (RHEL). Các nhà phát triển CentOS sử dụng mã nguồn RHEL và tạo ra một sản phẩm rất giống với nó. Hỗ trợ kỹ thuật cho CentOS chỉ được cung cấp thông qua cổng thông tin cộng đồng và web.
+
+![image](https://user-images.githubusercontent.com/105496635/184271972-ed07b343-7ca6-4b28-8d0d-2eda2a822763.png)
