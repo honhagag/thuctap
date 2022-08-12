@@ -75,3 +75,9 @@ IIS là gì? Web server IIS là một sản phẩm của Microsoft và cũng có
 CentOS là viết tắt của Community Enterprise Operating System (Hệ điều hành Doanh nghiệp Cộng đồng). Một trong những Bản phân phối Linux do Gregory Kurtzer khởi xướng. Nó cung cấp Hệ điều hành nguồn mở và miễn phí cấp doanh nghiệp. Cũng tương thích về chức năng với Red Hat Enterprise Linux (RHEL). Các nhà phát triển CentOS sử dụng mã nguồn RHEL và tạo ra một sản phẩm rất giống với nó. Hỗ trợ kỹ thuật cho CentOS chỉ được cung cấp thông qua cổng thông tin cộng đồng và web.
 
 ![image](https://user-images.githubusercontent.com/105496635/184271972-ed07b343-7ca6-4b28-8d0d-2eda2a822763.png)
+
+## Web server LiteSpeed
+Web server LiteSpeed có rất nhiều tính năng giống như Apache. LiteSpeed có khả năng tải các file cấu hình Apache trực tiếp đồng thời hoạt động như một Drop-in Replacement Apache với các Control Panel của Hosting. LiteSpeed có thể được thay thế với web server Apache trong khoảng 15 phút với Downtime bằng 0. Web server LiteSpeed còn có khả năng thay thế tất cả tính năng của Apache và đơn giản hóa việc sử dụng.
+
+![image](https://user-images.githubusercontent.com/105496635/184274613-15e0d1bc-5595-4d13-a7bf-3af021bb29fb.png)
+
