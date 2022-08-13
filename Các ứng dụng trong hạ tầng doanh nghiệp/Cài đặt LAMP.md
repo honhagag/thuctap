@@ -31,20 +31,20 @@ Các lựa chọn thay thế không phải nguồn mở gồm:
 - WIMP (Windows, Dịch vụ thông tin Internet, MySQL / MariaDB, PHP / Perl / Python)
 - MAMP (Mac OS x, Apache, MySQL / MariaDB, PHP / Perl / Python)
 
-### 4. Cơ chế hoạt động các thành phần trong LAMP
+### II. Cơ chế hoạt động các thành phần trong LAMP
 
-#### 4.1 Sự hoạt động của Linux trong LAMP
+#### 1 Sự hoạt động của Linux trong LAMP
 
 Linux cũng đóng vai trò là một hệ điều hành.  Trong LAMP, Linux có vai trò là hệ điều hành mã nguồn mở, được cung cấp hoàn toàn miễn phí. Khi bạn tìm thấy một vài chương trình trong LAMP mà không thấy Linux như Suse, Redhat, Ubuntu,... thì đừng lo, Linux của bạn không hề thiếu vì những chương trình này chính là phiên bản
 khác của Linux.
 
-#### 4.2 Apache được hoạt đọng như thế nào
+#### 2 Apache được hoạt đọng như thế nào
 Apache nắm giữ vai trò là một phần mềm server web phổ biến nhất hiện nay Apache có thế mạnh về độ nhanh chóng khi truy cập và cực kỳ an toàn. Người dùng có thể tùy chỉnh nó để phục vụ cho mục đích hỗ trợ ngôn ngữ web như CGI, PHP, SSL, ASP
 
- #### 4.3 MySql 
+ #### 3 MySql 
  Đây là một mã nguồn mở vô cùng phổ biến, có lợi thế lớn từ độ hiệu suất cũng như mức độ uy tín cao, đem đến cho người dùng có thể dễ dàng sử dụng. MySQL đặc biệt tốt khi ứng dụng trên web, đây là một lý do quan trọng khiến cho nó trở nên đặc biệt hiệu quả trong LAMP.
 
-#### 4.4  PHP hoạt động trong LAMP như thế nào?
+#### 4  PHP hoạt động trong LAMP như thế nào?
 PHP là ngôn ngữ kịch bản trong máy chủ và cũng được cập nhật một cách thường xuyên những kỹ thuật mới thông qua cơ chế vay mượn những tính năng tốt nhất từ các ngôn ngữ lập trình.
 
 
