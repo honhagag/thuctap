@@ -1,7 +1,7 @@
 # Install phpMyAdmin on CentOS 7
 
-[<img src="..\images\Screenshot_1.png">
-](https://github.com/chinhtran06062001/hocviecIT/blob/main/Database/phpMyAdmin/images/Screenshot_1.png?raw=true)
+![image](https://user-images.githubusercontent.com/105496635/184474268-5fa0ed0b-7555-4b79-a87f-559aff61dfc7.png) 
+
 *Khái niệm : phpMyAdmin là gì ?
 
 - phpMyAdmin là một công cụ phần mềm miễn phí được viết bằng PHP nhằm xử lý việc quản trị CSDL trên Web. phpMyAdmin hỗ trợ quản lý CSDL của cả MySQL và MariaDB.
