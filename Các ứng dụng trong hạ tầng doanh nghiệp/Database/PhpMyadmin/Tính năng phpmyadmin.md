@@ -38,21 +38,21 @@ Storage media support(hỗ trợ lưu trữ các phương tiện truyền thông
 
 - Quản lý cơ sở dữ liệu
 
-Bước 1 : Chọn thanh tab Databases, sau đó điền tên , chọn kiểu mã hoá.
+Bước 1 : Chọn thanh tab Databases hoặc có thể sử dụng lệnh ` CREAT DATABASE hoangga` 
 
-![image](https://user-images.githubusercontent.com/97047640/173489584-ff687c50-8168-495d-9c5c-06a97e070a81.png)
+![image](https://user-images.githubusercontent.com/105496635/184609075-911883f6-cfd6-49c4-8fc9-7c1a34a6a109.png)
+
 
 
 Bước 2 : Nhấn vào Create sẽ cho kết quả hiện thị tại một database ở cột bên trái.
 
-![image](https://user-images.githubusercontent.com/97047640/173489603-7d089b31-0122-42b6-af6e-9fd203084830.png)
-
+![image](https://user-images.githubusercontent.com/105496635/184614859-435f637a-3cd2-4624-b6ea-22b9802bbcc6.png)
 
 - Quản lý table (bảng dữ liệu)
 
 Bước 1: Sau khi tạo thành công một CSDL ở cột bên trái, bạn nhấn vào tên dữ liệu.
 
-![image](https://user-images.githubusercontent.com/97047640/173489676-25bb5376-4f8e-4090-8f0c-1aa7668283db.png)
+![image](https://user-images.githubusercontent.com/105496635/184610493-86f4ec20-088e-40f1-ab11-4ea066feb10e.png)
 
 Bước 2: Tìm đến dòng Create Table để điền tên, trường của bảng mà bạn muốn tạo, cuối cùng nhấn GO.
 
