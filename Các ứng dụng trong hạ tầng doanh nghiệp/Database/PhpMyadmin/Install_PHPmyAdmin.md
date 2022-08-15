@@ -39,11 +39,11 @@ yum -y install phpmyadmin
 
 - File cấu hình : `/etc/httpd/conf.d/phpMyAdmin.conf` , các dòng tham chiếu đến `Require ip` , `Allow from IP` mặc định là `127.0.0.1`
 
-    <img src="..\images\Screenshot_2.png">
+ ![image](https://user-images.githubusercontent.com/105496635/184565102-a7fd8d9f-0735-4fe8-ad6b-8881f47c9a17.png)
 
 - Để cho phép các hệ thống khác truy cập ứng dụng **phpMyAdmin** này, thêm (hoặc thay đổi) địa chỉ IP này thành địa chỉ IP của máy tính bạn muốn cấp quyền truy cập:
 
-    <img src="..\images\Screenshot_3.png">
+   ![image](https://user-images.githubusercontent.com/105496635/184565484-fddc4f7e-9630-4a81-9aae-e71104a17d38.png)
 
 #### Thay đổi Alias
 Thay đổi đường dẫn truy cập trang đăng nhập
