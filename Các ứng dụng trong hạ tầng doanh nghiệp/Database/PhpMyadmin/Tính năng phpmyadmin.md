@@ -56,7 +56,7 @@ Bước 1: Sau khi tạo thành công một CSDL ở cột bên trái, bạn nh�
 
 Bước 2: Tìm đến dòng Create Table để điền tên, trường của bảng mà bạn muốn tạo, cuối cùng nhấn GO.
 
-![image](https://user-images.githubusercontent.com/97047640/173489918-a7cb635c-62e5-4ccd-9cf4-985afcce6c27.png)
+![image](https://user-images.githubusercontent.com/105496635/184774959-114a3e38-f125-48b3-b64b-fb80b9b674ea.png)
 
 
 - Sao lưu cơ sở dữ liệu
@@ -75,9 +75,9 @@ Bước 2 : Từ cột bên trái các bạn chọn tên data rồi truy cập v
 Bước 3 : Bấm GO.
  
 Chèn dữ liệu trong bảng
-![image](https://user-images.githubusercontent.com/97047640/173491121-b9351b60-14ee-4a89-bf1b-dc3e1a03dc79.png)
+![image](https://user-images.githubusercontent.com/105496635/184778524-93375909-8894-47b1-a210-23364a2f4c25.png)
 
-![image](https://user-images.githubusercontent.com/97047640/173491163-69ea29f9-7a41-4319-9b38-4fb3eee418f4.png)
+![image](https://user-images.githubusercontent.com/105496635/184778762-74febd89-3cfd-4f33-ba7e-ad60be01b316.png)
 
 
 - Thực hiện truy vấn
@@ -86,12 +86,11 @@ Bước 1 : Chọn các bảng data từ bên trái để tìm xem câu lệnh S
 
 Bước 2 : Bạn chọn CSDL rồi chèn câu lệnh vào, cuối cùng nhấn nút GO.
 
- ![image](https://user-images.githubusercontent.com/97047640/173491303-b3b8c37d-3beb-4eaa-8a88-693afb7b2172.png)
+ ![image](https://user-images.githubusercontent.com/105496635/184779067-f7a33c34-5fb6-4608-89af-7442bc8eefa8.png)
 
  Kết quả
  
-![image](https://user-images.githubusercontent.com/97047640/173491337-a3de3bbe-a1f9-438f-afac-79196292b151.png)
-
+![image](https://user-images.githubusercontent.com/105496635/184779102-f8e9bfea-0df6-4311-9fd3-895ad51860c2.png)
  
  Ưu điểm của phpMyAdmin là gì?
  
