@@ -42,44 +42,37 @@ Chọn new Query và bắt đầu thực hiện các câu lệnh cơ bản
 
 Tạo 1 cơ sỡ dữ liệu mới
 
-![image](https://user-images.githubusercontent.com/97047640/172532679-aa7249f5-5b97-49b8-bdaf-9dc09163c9be.png)
+![image](https://user-images.githubusercontent.com/105496635/184814290-ac9a2093-e773-4859-af2a-1eb1314a9f4a.png)
 
 Tạo bảng cho database
 
-![image](https://user-images.githubusercontent.com/97047640/172533547-863aa637-6c6d-42ea-ab6a-fbf1f227cf8a.png)
+![image](https://user-images.githubusercontent.com/105496635/184815096-11da6786-c902-4576-aa91-a1fc31b81585.png)
 
 Chèn dữ liệu vào trong bảng
 
-![image](https://user-images.githubusercontent.com/97047640/172535085-a7b7e5a3-6961-4dec-9887-30486b0d424f.png)
+![image](https://user-images.githubusercontent.com/105496635/184816522-7bcf703d-0181-45d3-b490-06f6d27a3774.png)
 
 Nối 2 bảng lại với nhau với trường id
 
-![image](https://user-images.githubusercontent.com/97047640/172561013-2476a769-55fa-4356-a78b-7d1562c717a5.png)
+![image](https://user-images.githubusercontent.com/105496635/184817526-65c8c495-c470-4e67-846d-dcf7dce38f10.png)
 
-
-![image](https://user-images.githubusercontent.com/97047640/172561307-f2aed51f-3b4b-48e9-af07-fb6ec7569330.png)
-
-![image](https://user-images.githubusercontent.com/97047640/172561388-85c4637c-6622-418f-99f8-230702ccaba1.png)
 
 Dùng lệnh select để xem dữ kiệu trong bảng
 
-![image](https://user-images.githubusercontent.com/97047640/172559038-ba96c7a6-fc11-4e80-98a0-1c2f3bdd0dd4.png)
+![image](https://user-images.githubusercontent.com/105496635/184821882-72dc8ec2-6f4e-46f7-a99b-94c5e2608815.png)
 
 Dùng lệnh update để cập nhật dữ liệu trong bảng
 
-![image](https://user-images.githubusercontent.com/97047640/172559456-79e48b39-8ee9-45fd-aa76-d7746682a59b.png)
+![image](https://user-images.githubusercontent.com/105496635/184822497-24fa1e20-9375-4ab6-9603-9959595cff1a.png)
 
 Lệnh delete: chúng ta có thể xóa dữ liệu,  xóa  database
 
-![image](https://user-images.githubusercontent.com/97047640/172560175-89b5341b-adc6-4546-878a-dd3983d1a5b1.png)
+![image](https://user-images.githubusercontent.com/105496635/184823356-6599ab17-d35a-4f48-938b-c43e850aeb78.png)
 
 
-![image](https://user-images.githubusercontent.com/97047640/172560294-59fc78c9-4149-4b4e-96b1-6a66412f91ab.png)
+![image](https://user-images.githubusercontent.com/105496635/184824041-458d8e30-fe12-418b-996e-afb491c8b1cb.png)
 
 
-![image](https://user-images.githubusercontent.com/97047640/172560742-2bc7f135-7123-401e-9799-ddf4cfbb41ae.png)
-
-![image](https://user-images.githubusercontent.com/97047640/172560821-cf00bdc5-8dba-497e-a466-0bc53b1106cb.png)
 
 
 
