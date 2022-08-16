@@ -80,14 +80,14 @@ Kiểm tra trên local thì vẫn có thể:
 ## 5. Trên phpMyAdmin
 Khi ta đăng nhập bằng tài khoản có quyền `root`, ta có thể xem thông tin các user tại bảng `user` trong database `mysql`
 
-<img src="..\images\Screenshot_46.png">
+![image](https://user-images.githubusercontent.com/105496635/184779887-9490d599-04ea-47ca-80c8-59f5edc236ef.png)
 
 Ta có thể chỉnh sửa để có thể cho phép hoặc chặn `user` nào đó login vào trang **phpMyAdmin** bằng cách đổi phần Host của nó.
 
 Để sửa, ta chọn **Edit** trên user muốn sửa. Rồi chỉnh sửa phần Host của nó cho phù hợp.
 
-<img src="..\images\Screenshot_47.png">
+![image](https://user-images.githubusercontent.com/105496635/184779905-6b7df2d7-bff6-4222-9c29-fa53bbc99f28.png)
 
-<img src="..\images\Screenshot_48.png">
+![image](https://user-images.githubusercontent.com/105496635/184779923-e147f6d9-6cbb-4782-898f-ceadca660520.png)
 
 Chỉnh sửa xong, ta kéo xuống dưới click **Go** để thực hiện sửa đổi.
