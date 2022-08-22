@@ -13,3 +13,10 @@ Các chức năng trên zimbra mail:
 - Chat: Chat nội bộ với nhau trong mạng LAN hoặc trên Internet.
 - Lịch công tác (Calendar): Thông tin về lịch cá nhân và lịch nhóm, hỗ trợ cho phép tạo cuộc hẹn, tự động gửi mail theo lịch trình(Như thời gian hợp được lên lịch trước)…
 - Preferences: Chỉnh sửa nâng cao với Zimbra, Gồm thay đổi Theme, phông chữ, ngôn ngữ, phím tắt, chữ ký, bộ lọc mail….
+
+### 3. Cấu hình Zimbra
+Disk: Trên 20GB Ram: 6GB IP(VPS hoặc máy chủ), domain, mail domain
+
+
+
+
