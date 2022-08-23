@@ -47,7 +47,7 @@ Và sau đó sử dụng `sestatus` để kiểm tra
 cập nhật hệ thống và khởi động lại.
                 `yum update -y ; reboot`
                 
-## Bướm 3. Kiểm tra và set host name.                
+ Bướm 3. Kiểm tra và set host name.                
      hostnamectl set-hostname mail.xn--hoangvip-1ya8k.vn
      exec bash
 ![image](https://user-images.githubusercontent.com/105496635/186100082-9a2768ab-9b49-41c3-b97d-adce02b21c8a.png)
@@ -95,9 +95,13 @@ Bước 4: Cài đặt Zimbra Server
 
 - Như vậy là đã hoàn tất rồi nhé, nếu máy chủ bạn có cài Firewall bạn cần mở các port sau ra để email hoạt động
 
-- Dưới đây là các Port bạn cần mở
+Bước 6: Sau khi cài đặt xong khởi động lại dịch vụ zimbar bằng lệnh :
 
-25,80,110,143,443,465,587,993,995,5222,5223,9071,7071
+               su zimbra
+               zmcontrol restart
+Bước 7: Mở port
+- Dưới đây là các Port bạn cần mở
+ `25,80,110,143,443,465,587,993,995,5222,5223,9071,7071`
 
                  firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
                     firewall-cmd --reload
