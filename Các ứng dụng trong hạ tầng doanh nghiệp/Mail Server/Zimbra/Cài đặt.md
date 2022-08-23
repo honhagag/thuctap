@@ -17,6 +17,10 @@ Các chức năng trên zimbra mail:
 ### 3. Cấu hình Zimbra
 Disk: Trên 20GB Ram: 6GB IP(VPS hoặc máy chủ), domain, mail domain
 
+## Cài đặt Zimbra
 
+Bước 1: Cập nhật bản ghi mail
 
+Để phục vụ cho việc cài đặt. Bạn hãy trỏ bản ghi mail như sau trước nhé. Bên dưới là 2 bản ghi và mẫu của mình.
 
+![image](https://user-images.githubusercontent.com/105496635/186051480-de77d99a-9a46-4ea1-8d89-587a31bb5250.png)
