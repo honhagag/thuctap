@@ -99,5 +99,5 @@ Bước 4: Cài đặt Zimbra Server
 
 25,80,110,143,443,465,587,993,995,5222,5223,9071,7071
 
-  firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
+                 firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
                     firewall-cmd --reload
