@@ -84,7 +84,20 @@ Bước 4: Cài đặt Zimbra Server
 ![image](https://user-images.githubusercontent.com/105496635/186095631-e8df0aa8-dd45-401b-8d54-3dfbd512cbad.png)
 
 
+![image](https://user-images.githubusercontent.com/105496635/186106969-9ba83c4b-d820-4ee6-b041-d45321faa01d.png)
+
+![image](https://user-images.githubusercontent.com/105496635/186107422-412024c8-d55e-4762-9f9f-29874bf20954.png)
+
+![image](https://user-images.githubusercontent.com/105496635/186108314-1f7a104a-33c5-44e4-a818-bcc1a05cfcf8.png)
+
+![image](https://user-images.githubusercontent.com/105496635/186109085-0e3fd7a4-ca48-4d62-98db-85f0fdcc09c1.png)
+
 
 - Như vậy là đã hoàn tất rồi nhé, nếu máy chủ bạn có cài Firewall bạn cần mở các port sau ra để email hoạt động
 
 - Dưới đây là các Port bạn cần mở
+
+25,80,110,143,443,465,587,993,995,5222,5223,9071,7071
+
+  firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
+                    firewall-cmd --reload
