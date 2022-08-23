@@ -60,13 +60,31 @@ vi /etc/hots
 ![image](https://user-images.githubusercontent.com/105496635/186100551-4d1712a5-e766-49e0-92e9-882cc482d156.png)
 
 
+Bước 4: Cài đặt Zimbra Server
+- Bạn thực hiện chạy lệnh sau để install Zimbra & ZCS dependencies
+
+`yum install unzip net-tools sysstat openssh-clients perl-core libaio nmap-ncat libstdc++.so.6 wget -y`
+
+- Bước tiếp theo bạn cần Download Zimbra và cài đặt. Và bạn cần tạo một thư mục zimbra để cài vào đó. Bạn cũng có thể xem các phiên bản Zimbra ở trang chủ để download nhé.
+
+                  mkdir zimbra && cd zimbra
+
+                  wget https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.15_GA_3869.RHEL7_64.20190918004220.tgz --no-check-certificate
 
 
+- Sau khi download về hoàn tất bạn tiến hành giải nén file ra
+                   
+                   `tar zxpvf zcs*.tgz`
 
 
+- Truy cập vào thư mục vừa giải nén và chạy lệnh ./install
 
-
-
-
+                  cd zcs* && ./install.sh
 
 ![image](https://user-images.githubusercontent.com/105496635/186095631-e8df0aa8-dd45-401b-8d54-3dfbd512cbad.png)
+
+
+
+- Như vậy là đã hoàn tất rồi nhé, nếu máy chủ bạn có cài Firewall bạn cần mở các port sau ra để email hoạt động
+
+- Dưới đây là các Port bạn cần mở
