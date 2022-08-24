@@ -20,3 +20,27 @@
 *Note: Với những tài khoản truy cập lần đầu tiên, admin có thể yêu cầu người dùng thay đổi pass được cấp ban đầu nhằm đảm bảo an toàn thông tin
 
 Sau khi người dùng nhập Tài khoản đăng nhập vào Email, bấm vào tên tài khoản Email (góc bên phải giao diện) chọn thay đổi mật khẩu
+
+## 3. Thao tác trong Email
+
+Sau khi đăng nhập, hệ thống sẽ tự động điểu chỉnh lịch trình
+![image](https://user-images.githubusercontent.com/105496635/186357276-83930225-1e91-49e0-9e22-eecf72d7196a.png)
+
+Nếu NSD muốn chỉnh giao điện tiếng anh chọn mục Tuỳ chọn, tiếp theo NSD chọn mục ngôn ngữ chọn - Tiếng Anh - English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
