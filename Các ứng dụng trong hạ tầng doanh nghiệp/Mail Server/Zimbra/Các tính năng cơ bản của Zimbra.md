@@ -1,9 +1,9 @@
 # Zimbra
-## Zimbra là gì
+## 1. Zimbra là gì
 - Zimbra được biết đến là bộ phận thành phần bao gồm máy chủ email và máy khách website. Zimbra Collaboration Suite là một trong những mã nguồn mở miễn phí nổi tiếng về tính năng ,độ ổn định và bảo mật cao.
 - Nó không chỉ đơn giản là tên của một ứng dụng về email mà còn là một giải pháp, một hệ thống khá hoàn chỉnh để triển khai môi trường chia sẻ công tác phục vụ cho quản lý và công việc. Zimbra được tin dùng bởi hơn 5.000 công ty và doanh nghiệp quốc doanh, và trên 500 triệu người dùng cuối tại hơn 130 quốc gia
 
-## Các tính năng chính của Zimbra
+## 2. Các tính năng chính của Zimbra
 - Thư điển tử: một hệ thống thư điện tử Gmail gồm Mail server (SMTP, POP3, IMAP, Antivirus, Antispam, openLDAP, backup,… Bao gồm đầy đủ các tính năng như auto-reply, auto-forward, mail filter, …) và Mail client (Zimbra desktop và Zimbra Web Client).
 - Lịch công tác (calendar): lịch cá nhân và lịch nhóm, tự động gửi mail mời họp,…
 - Sổ địa chỉ (Contacts): sổ cá nhân và sổ chung của nhóm.
@@ -15,7 +15,7 @@
 - Bao gồm một kho các Zimlet (tương tự các extensions) mà các quản trị viên có thể chọn cài để bổ xung tính năng cần thiết. Mọi người có thể tự viết các Zimlet để kết nối hệ thống Zimbra với các hệ thống thông tin khác hoặc mở rộng tính năng. Đây có lẽ là một trong những điểm mạnh nhất của Zimbra.
 - Quản trị hệ thống qua giao diện web khá đầy đủ và chi tiết với nhiều tiện ích.
 
-## Điểm nổi bật của Zimbra
+## 3. Điểm nổi bật của Zimbra
 - Sự riêng tư
   - Zimbra có thể được triển khai trong trung tâm dữ liệu hoặc trong môi trường điện toán đám mây, đáp ứng các yêu cầu về chủ quyền dữ liệu và thỏa mãn nhu cầu riêng tư của doanh nghiệp.
 
@@ -47,3 +47,19 @@
 
 - Cộng đồng
   - Cộng đông của Zimbra có hơn 60.000 thành viên và mạng lưới gồm hơn 1.900 đối tác trên toàn cầu.
+
+## 4. Kiến trúc
+- Về kiếm trúc Zinbra vẫn sử dụng các phần mềm chức năng phổ biến như  OpenLDAP, Postfix, SpamAssassin, Amavisd, Tomcat,... cùng với 1 số thành phần mềm để tạo nên hệ thống tích hợp chặt chẽ. Có thể dùng OpenLDAP mà dùng window Active Directory, hoặc import user  từ 1 máy chủ Exchange sang.
+- Hiện tại Zinbra Server có các bài cài viết redhat, fedora, centos,... nếu chỉ cài trên một máy thì khá đơn giản và nhanh
+- Zinbra có thể cài nhiều theo cấu trúc khác nhau từ 1 hệ thống nhỉ nhiều account trên một máy chủ duy nhất cho đến hệ thống hàng nghìn account trên nhiều máy chủ có chức năng khá nhau, có khả năng mở rộng thêm máy chủ dễ dàng
+- Zimbra có 1 kho các Zimlet (một thứ tương tự các extensions của Firefox) mà các quản trị mạng có thể chọn cài để bổ xung tính năng. mọi người có thể tự viết các zimlet để kết nối hệ thống zimbra với các hệ thống thông tin khác hoặc mở rộng tính năng. Đây có lẽ là 1 trong những điểm mạnh nhất sẽ gây nghiện cho người dùng giống như extensions của firefox vây.
+- Quản trị hệ thống qua giao diện web khá đầy đủ và chi tiết với nhiều tiện ích. Ví dụ có thể tạo hàng ngàn account trong vài phút
+
+
+
+
+
+
+
+
+
