@@ -105,3 +105,36 @@ Bước 7: Mở port
 
                  firewall-cmd --permanent --add-port={25,80,110,143,443,465,587,993,995,5222,5223,9071,7071}/tcp
                     firewall-cmd --reload
+Giao diện của Zimbra sau khi cài đặt
+![image](https://user-images.githubusercontent.com/105496635/186324192-6af9a744-753c-4e53-85e3-8088fd18a2e8.png)
+
+# Thiết lập password cho Zimbra
+Sau khi truy cập vào Zimbra, chúng ta tiến hành thay đổi mật khẩu
+
+- Bước 1: SSH vào email server và chuyển sang thao tác với user zimbra sử dụng lệnh `su -zimbra`
+
+- Bước 2: Tiếp đó kiểm tra có những quyền admin nào sử dụng `zmprov gaaa`
+
+![image](https://user-images.githubusercontent.com/105496635/186325758-9f76494b-deb8-48dd-945e-9b200a417709.png)
+
+- Bước 3: Thay đổi mật khẩu bằng lệnh `zmprov sp <admin email address> <new password>`
+
+Ví dụ `zmprov sp admin@mail.hoaàngviíp.vn`
+
+![image](https://user-images.githubusercontent.com/105496635/186326542-c2be1ec3-5681-46d5-bdd5-7abdd6f7f2df.png)
+
+Và sau đó sử dụng mật khẩu truy cập vào 
+
+![image](https://user-images.githubusercontent.com/105496635/186326629-81789344-e8c5-4628-b9a5-c2226e9eede2.png)
+
+
+
+
+
+
+
+
+
+
+
+
