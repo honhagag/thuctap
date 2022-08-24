@@ -28,10 +28,12 @@ Sau khi đăng nhập, hệ thống sẽ tự động điểu chỉnh lịch tr�
 
 Nếu NSD muốn chỉnh giao điện tiếng anh chọn mục Tuỳ chọn, tiếp theo NSD chọn mục ngôn ngữ chọn - Tiếng Anh - English
 
+![image](https://user-images.githubusercontent.com/105496635/186361473-280788d7-0508-4b35-bab4-7cef93809597.png)
 
-
-
-
+- Nếu NSD muốn xem thư được gửi đến NSD chọn mục thư đến (Bên Menu bên trái)
+- Nếu NSD muốn xem thư đã được gửi đi, NSD chọn mục thư đã gửi (Bên menu trái)
+- Cách làm tương tự với 3 mục Thư nháp, thư rác và thùng rác MSD có thể kích chuột vào các chũ tương ứng và xem nội dung từng phần.
+- NSD muốn xem quota và dung lượng sử dụng hiện hành của mailbox, ta rê chuột vài tên account ở góc phải trên cùng và đợi 1-2s sẽ hiện ra khung thông báo cho biết dung lượng mailbox hiện hành và quota của mailbox
 
 
 
