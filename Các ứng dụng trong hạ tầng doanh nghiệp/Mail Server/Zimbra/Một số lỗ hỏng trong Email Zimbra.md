@@ -19,4 +19,13 @@ Một doanh nghiệp lớn hay nhỏ đều có những thông tin quan trọng 
 3. Giáo dục nhân viên để sử dụng mail an toàn
 Con người là yêu tố dẫn đến mọi tấn công. Hacker đã biết khơi gợi các nhân để đưa ra các chiêu thức lừa đảo, mời gợi mọi người 
 4. Sử dụng công cụ lọc mail
+- Các công cụ quét lọc Email rất tốt cho việc bảo mật email doanh nghiệp
+- Thị trường hiện nay có một số phần mềm email miễn phí giúp các doanh nghiệp tìm ra mối đe dọa và tim các email thường xuyên rủi ro nhất
 5. Chọn tường lửa lựa chọn mail thông minh
+- Các loại tường lửa email ứng dụng công nghệ AI và Machine Learning có khả năng phân tích và kiểm soát toàn bộ luồng email bên trong hệ thống. Chúng có thể đảm bảo sự an toàn tối đa cho mọi hoạt động giao dịch tài chính của doanh nghiệp.
+
+## 3. Receive GUARD - Tường lửa bảo vệ Email công nghệ AI và Machine Learning
+
+Receive GUARD được biết đến là một giải pháp email bảo mật toàn diện cho các doanh nghiệp như: các tổ chức chính phủ, dầu khí, thương mại điện tử, tài chính và ngân hàng. Receive GUARD ứng dụng AI trong hệ thống phân tích, để phát hiện những nguy cơ tiềm ẩn của email nhận được. Bên cạnh đó, hệ thống sẽ tự động mã hoá các email đáng ngờ thành hình ảnh để bảo vệ người dùng.
+
+Một trong những điểm nổi bật có thể kể đến ở công nghệ này, đó là "Machine Learning" với khả năng "học" và thay đổi thuật toán để ngăn chặn các email bất hợp pháp.
