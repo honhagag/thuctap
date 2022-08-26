@@ -13,6 +13,8 @@
 
 [7. Giao thứ SNMP](#7)
 
+[8. Giao thức SMTP](#8)
+
 <a name = "1"></a>
 ## I, Giao thức HTTP – Port 80 & giao thức HTTPS – Port 443
    1. Giao thức http- port 80:
@@ -195,4 +197,72 @@ Address: 2607:f8b0:400a:801::200e
  + Đặt các biến trong agent
  + Xác nhận các sự kiện không đồng bộ từ các agent
 
+ <a name="8"></a>
+ ## VIII, Giao thức SMTP
+   - Giao thức SMTP(Simple Mail Transfer Protocol) được dịch ra là giao thức truyền tải thư đơn giản. Giao thức này có nhiệm vụ chính là tập trung gửi Email, sau đó IMAP hoặc POP3 tiến hành truy xuất các dữ liệu
+   
+   ![image](https://user-images.githubusercontent.com/105496635/186810428-1e67eee4-ffd6-4531-9678-98e627cd2f88.png)
 
+   Hệ thống này không bị giới hạn bởi Gmail hay cái email đi kèm với hosting. Các máy chủ trong hệ thống đi kèm với hosting. Các máy chủ này đi kèm với TCP 25 
+   
+   ### Cách thức hoạt động
+   
+   Giao thức SMTP hoạt động theo quy trình sau đây: Doanh nghiệp gửi email đi -> hệ thống SMTP tự động gửi thông báo cho máy chủ của SMTP dựa theo địa chỉ email -> hệ   thống SMTP nhận được tín hiệu -> Trao đổi với máy chủ DNS để cố tìm tên miền gốc ở Hostname có trong máy chủ SMTP 
+   
+   - Các bước cài đặt SMTP 
+   Bước 1: Thu thập thông tin về SMTP trước hết cần tìm hiểu về SMTP
+   Để cài đặt và sử dụng thì cần phải có đủ thông tin về cấu hình 
+   
+   SMTP Server: smtp.gmail.com
+   
+   SMTP Password: Là mật khẩu tài khoản Gmail của bạn
+   
+   TLS/SSL: Required.
+   
+   SMTP Username: Là tên đăng nhập Gmail đầy đủ
+  
+   SMTP Port: 587
+   
+   Bước 2: Thiết lập mật khẩu cho mail
+   
+   Sau khi thu thập được đầy đủ các thông tin thiết lập SMTP cần thiết, hãy bắt tay vào bước thứ 2: Thiết lập mật khẩu cho Gmail. Bạn có thể lập mật khẩu cho ứng dụng   theo trình tự sau:
+
+   Truy địa chỉ https://myaccount.google.com/ -> đăng nhập vào tài khoản gmail.
+   Bật tính năng ‘xác minh 2 bước’ trong phần bảo mật -> đặt mật khẩu cho Gmail
+   Nhấp vào mục ‘chọn ứng dụng’ -> Chọn ‘Khác (Tên tùy chỉnh)’ -> Tiến hành đặt tên -> Chọn ‘tạo’ -> Mật khẩu của ứng dụng sẽ được hiển thị. Lúc này, bạn hãy lưu mật khẩu là xong.
+   
+   Bước 3: Cài đặt plugins WP mail SMTP 
+   
+   Sau cùng, bạn chỉ cần cài đặt plugin WP mail SMTP theo trình tự: Cài đặt, kích hoạt các plugin WP Mail SMTP -> vào ‘cài đặt’ -> click vào ‘WP Mail SMTP’ -> Vào ‘Mailer’ -> Chọn ‘Other SMTP’ phù hợp -> Điền thông số vào các phần theo yêu cầu.
+
+Những thông số cần điền tương ứng với các mục là:
+
+- SMTP Host: smtp.gmail.com.
+- SMTP Port: SMTP Google có mặc định SSL là 465, TSL là 587.
+- Encryption: Tại đây, hãy dùng mã hóa, sau đó chọn cho khớp với port bạn đang dùng.
+- Authentication: Bật ‘On’ bởi bạn cần kích hoạt SMTP authentication.
+- SMTP Username: Điền tên đăng nhập của Gmail mà bạn dùng.
+- SMTP Password: Điền mật khẩu mà bạn đã đặt trong bước 2
+   
+   
+   ![image](https://user-images.githubusercontent.com/105496635/186820523-e2aa5b6c-c71d-4406-acd3-0257b872fcdb.png)
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
