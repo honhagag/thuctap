@@ -31,17 +31,33 @@ Sau đó nhập key
 
 ![image](https://user-images.githubusercontent.com/105496635/186856614-96b6277f-1dd3-41cc-a419-5a4dd9d0e350.png)
 
-Sau đó load trang
+Tiếp đó chờ cài đặt ứng dụng
 
 ![image](https://user-images.githubusercontent.com/105496635/186856782-289f934d-32e3-40a1-9c69-032ccd192d34.png)
 
 
+Nhập thông tin domain
+
+![image](https://user-images.githubusercontent.com/105496635/186862025-e629be64-45b0-4aaf-b7ea-3b2c1d7e45c8.png) 
+
+Nhajao thông tin tài khoản
+`mk: Hoang123123@@`
+
+![image](https://user-images.githubusercontent.com/105496635/186864343-fb82e264-d051-4881-80e2-872edc7b4220.png)
 
 
+Xác nhận thông tin 
+
+![image](https://user-images.githubusercontent.com/105496635/186867313-98c93e38-8a4e-4658-8ba1-35d9def92d1a.png)
+
+Nhập thông tin tài khoản
+
+![image](https://user-images.githubusercontent.com/105496635/186867577-b55d45f7-4f65-46ff-974c-9a69a922b3e2.png)
 
 
+Giao diện khi hoàn tất
 
-
+![image](https://user-images.githubusercontent.com/105496635/186867502-2fb8bab5-b8d6-4db9-93fc-01720a3f29ba.png)
 
 
 
