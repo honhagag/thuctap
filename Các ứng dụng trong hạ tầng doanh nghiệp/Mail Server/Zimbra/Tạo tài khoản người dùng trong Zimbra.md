@@ -25,8 +25,7 @@ Giao diện menu quản lý sẽ có các vùng được khoanh đỏ như ảnh
      - 2: Danh sách các tài khoản email đã được tạo
      - 3: Thêm email
 
-- Bước 3: Trong bước thêm email có 2 cách:
-    - Tạo email thông thường
+- Bước 3: Tạo email 
  + Nhập thôn tin tài khoản
    
   ![image](https://user-images.githubusercontent.com/105496635/187010548-4d147e5d-f1de-4867-b959-a0ee0ce8c173.png)
@@ -35,5 +34,6 @@ Giao diện menu quản lý sẽ có các vùng được khoanh đỏ như ảnh
 + Nhập mật khẩu mặc định `123456` và sử dụng bắt người dùng đặt mật khẩu khi đã đăng nhập vào tài khoản và sau đó ấn hoàn tất
 
 ![image](https://user-images.githubusercontent.com/105496635/187010598-d5376208-cefe-453d-9cf8-3de8c2111733.png)
-
-
+   
+    
+    
