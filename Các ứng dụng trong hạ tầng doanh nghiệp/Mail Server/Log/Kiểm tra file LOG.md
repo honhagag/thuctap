@@ -13,7 +13,7 @@
 
 
 
-
+Chu trình nhận: Chấp nhận kết nối từ email server gửi => Kiểm tra qua các rule filter, đánh giá spam, virus => Xếp vào queue => Nhận thư và xóa khỏi queue => Thông báo nhận thư 250 2.1.5 Delivery OK
  
 
 
