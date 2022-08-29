@@ -1,6 +1,6 @@
 # Cài đặt MDoemon
 Tiến hành tải mdaemon ở trang web
-https://www.altn.com/Downloads/MDaemon-Mail-Server-Free-Trial/
+https://www.altn.com/Downloads/MDaemon-Mail-Server-Free-Trial
 
 ![image](https://user-images.githubusercontent.com/105496635/186854812-b35293c7-5858-4f2e-959b-95cab1f2cac2.png)
 
