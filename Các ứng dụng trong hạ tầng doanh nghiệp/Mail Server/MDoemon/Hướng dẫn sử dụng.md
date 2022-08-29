@@ -80,6 +80,68 @@ Giao diện user
 ![image](https://user-images.githubusercontent.com/105496635/187126367-9c2a722e-0e48-441b-ba56-eceb12ba3939.png)
 
 
+## V, Soạn thư gửi Mail
+Từ giao diện ấn New Mail
+
+![image](https://user-images.githubusercontent.com/105496635/187139240-f64185d4-f004-49bc-b5fd-a840e765da76.png)
+
+Sau đó hiện lên một trang giao diện gửi mail
+
+![image](https://user-images.githubusercontent.com/105496635/187139350-71910a23-26f5-45f0-acc1-9417bbb0831f.png)
+
+Nhập nội dung và email của người nhận
+
+![image](https://user-images.githubusercontent.com/105496635/187139574-56c8ebf2-9b4d-428f-a6da-69fd3b4aab3d.png)
+
+
+Trong khoanh vuông là thư vừa nhận được
+
+![image](https://user-images.githubusercontent.com/105496635/187139776-7ac9cde8-580a-4009-a3ea-2671f97fe47c.png)
+
+## VI. Đổi mật khẩu Gmail
+
+Chọn phần cài đặt hình bánh răng bên trên trái và chọn phần ô khoanh để vào cài đặt mật khẩu
+
+![image](https://user-images.githubusercontent.com/105496635/187141912-88f86bc1-ddf9-49c8-b8c6-c8972f03fecc.png)
+
+Sau đó đặt mật khẩu và lưu lại
+
+![image](https://user-images.githubusercontent.com/105496635/187142410-c6059d6d-3e7a-4be4-9d49-e5b8fe1b8106.png)
+
+## VI, Tạo chữ kí 
+
+Từ menu bên trái chọn Soạn -> kéo xuống dưới và nhập chữ kí sau đó luuw lại
+
+![image](https://user-images.githubusercontent.com/105496635/187143618-49464357-3f5b-491c-93d0-9e6a87b55603.png)
+
+## VII, Trả lời tự động 
+
+Từ menu bên trái chọn hộp thoại trả lời tự động
+
+
+![image](https://user-images.githubusercontent.com/105496635/187143848-890465f6-cd77-479f-8b28-6f9c451a85a0.png)
+
+## VII, Cấu hình chuyển tiếp
+
+- Từ menu Options → Soạn → Trả lời và chuyển tiếp
+
+- Mặc định hệ thống đã tích sẵn mục Retain Copy có nghĩa là sau khi forward mail, hệ thống sẽ vẫn giữ lại 1 bản. Nếu bỏ tích chọn mục này hệ thống sẽ xóa ngay mail đi sau khi forward.
+
+- Nhập địa chỉ email bạn muốn forward thư đến vào khung Address you’d like to forward messages to: sau đó nhấn Save.
+
+
+![image](https://user-images.githubusercontent.com/105496635/187144985-df466873-558a-4856-abd0-b96dff012ef0.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
