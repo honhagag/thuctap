@@ -80,7 +80,21 @@
  ## 2. Cơ chế hoạt động
  - Kết nối đến server 
  - Lấy nội dung được xử yêu cầu từ người dùng và lưu đệm cục bộ
- - Xử lí các biên tập từ người dùng ví dụ như
+ - Xử lí các biên tập từ người dùng ví dụ như đánh dấu email và mail để đọc hay xóa
+ - Ngắt kết nối tới server
+
+## 3. Ưu nhược điểm
+Ưu điểm
+- Mail được lưu trên server đầu xa, tức có thể truy cập từ nhiều điểm khác nhau 
+- Xem nhanh hơn khi chỉ có các tiêu đề được tải về đến khi nội dung được yêu cầu rõ ràng
+- Mail được dự phòng tự động trên server
+- Tiết kiệm được không gian lưu trữ cục bộ
+- Vẫn cho phép lưu mail cục bộ nếu cấu hình
+
+Nhược điểm 
+- Vì IMAP lưu các email trên server nên dung lượng hòm thư sẽ bị giới hạn bởi các nhà cung cấp dịch vụ gmail
+- Nếu có một lượng lớn mail cần lưu trữ, sẽ gặp nhiều vấn đề khi gửi nhận ,ail kho hòm thư bị đầy
+- Ngoài ra phải có Internet mới có thể truy cập email vì nó chỉ kéo head về nội dung vẫn còn trên server
  
 
 
