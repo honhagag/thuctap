@@ -50,7 +50,24 @@ chia sẻ têp, trò chuyên nhóm đồng bộ hóa địa chỉ và một khâ
 
 - Di chuyển Exchang
 
-Di chuyển từ máy chủ này sang máy chủ khác là mọt thách thức khá lớn với MDoemon nhưng có Mail MDoemon thì lại khá đơn giản. TÍnh năng MDMigrator tích hợp
+Di chuyển từ máy chủ này sang máy chủ khác là mọt thách thức khá lớn với MDoemon nhưng có Mail MDoemon thì lại khá đơn giản. TÍnh năng MDMigrator tích hợp, đi kèm với MDoemon, được thiết kế để di chuyển dữ liệu của bạn từ Exchange sang MDoemon với một vài bước đơn giản và chạy trên MDoemon với thời gian tối thiểu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
