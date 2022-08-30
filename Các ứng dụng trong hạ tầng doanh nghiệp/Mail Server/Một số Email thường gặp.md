@@ -40,7 +40,7 @@
 - Đa dạng kết nối:  Hiện nay các trang mạng nhiều, việc chiếm ưu thế nay như Facebook, Twitter, .. Giúp người đọc có thể vừa lượt majg xã hội và đọc mail
 - Ngoài ra Outlook còn cho phép sử dụng html va Css để người dùng có thể thỏa sức sánh tạo
 
-## 3. Microsoft Exchane
+## 3. Microsoft Exchange
 - Microsoft Exchange Server là dạng hệ thống máy chủ ảo giúp các doanh nghiệp quản lí mail, lịch , danh bạ và hỗ trợ thong qua người dùng máy tính bàn điện thoại di động và các trình duyệt web
 - Để đơn giản hóa định nghĩa ta có thể hiểu để có thể sử dụng được email trên Outlook hay Exchange Online, Microsoft Exchange Server phải hoạt động. Microsoft Exchange Server như “cơ quan đầu não” và Outlook hay Exchange Online là nguồn trung gian phân phối dữ liệu đến bạn.
 - Exchange Server chủ yếu sử dụng giao thức độc quyền được gọi là MAPI để nói nói chuyện với các ứng dụng email, nhưng sau đó đã có thêm hỗ trợ cho POP3, Imap và EAS. Giao thức SMTP tiêu chuẩn được dử dụng để giao tiếp với các máy chủ thư internet
@@ -61,6 +61,15 @@
 - Exchange Server cũng có thể chặn tin nhắn đến của người nhận, phù hợp với các email được chỉ định chỉ được gửi mà không được nhận theo chính sách của tổ chức.
 
 - Khi email được Exchange Server duyệt và thông qua, chúng mới được gửi đến người nhận phù hợp.
+
+
+## 3.2 Một số tính năng
+- Cung cấp hỗ trợ lên đến 256 GB và lõi 48 CPU
+- Cho phép cài đặt trên Window Server Core
+- Cho phép các truy cập bên ngoài vào trung tâm quản trị Exchange (EAC) và Exchange Management Shell.
+- Sử dụng phân bổ bộ nhớ đệm đồng bộ nhớ để tối ưu việc sử dụng bộ nhớ cho cơ sở dữ liệu hoạt động
+- Ngăn chặn người tham dự chuyển tiếp lời mời họp
+- Cung cấp cho người dùng các tùy chọn vắng mặt bổ sung
 
 
 
