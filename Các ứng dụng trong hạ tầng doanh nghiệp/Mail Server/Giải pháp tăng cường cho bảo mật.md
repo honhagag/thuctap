@@ -26,4 +26,28 @@ Như vậy, SLL không chỉ giúp nâng cao chất lượng thuuowgn hiệu cò
 ### 2 Cài đặt VPN 
 VPN(Vitual Private Netwwork) còn được gọi là "mạng riêng ảo". Đây là cuộc tấn công nghệ mạng cho pjeps người dùng thiết lập một trang mạng chung đã bảo mật trên Internet. VpN mang tính ứng dụng cao kkhi được các doanh nghiệp áp dụng nhằm ggiwois hạn lượt truy cập hệ thồn Email doanh nghiệp
 
-              
+![image](https://user-images.githubusercontent.com/105496635/187411788-15808182-44d1-457d-bd10-417c0347f8f2.png)
+    
+    
+Công nghệ VPN được lựa chọn của các doanh nghiệp lựa chọn là bảo mật
+
+Việc này có thể được thực hiện thông qua IP tĩnh của công ty hoặc IP VPN để yêu cầu quyền truy cập. Nhờ đó, tăng cường bảo mật thông tin, tránh bị đánh cấp thông tin khi dùng Wifi 
+
+Ngoài ra VPN còn giúp duyệt web ẩn danh, tránh bị lộ danh tính cá nhân khi truy cập vào các Web không được bảo vệ. Cài đặt VPN tại văn phòng công ty có thể giúp bạn truy cập vào những website bị chặn giới hạn địa lí, vượt tường lửa 1 cách dễ dàng
+
+### 3. Lưu ý bảo vệ thông tin Email cá nhân
+
+Email cá nhân cũng là một yếu tố quan trọng cần được bảo vệ. Hiện nay, đa phần các Website luôn có chức năng gửi lại mật khẩu qua Email, hay đơn giản hơn là thói quen lưu trữ dữ liệu cá nhân trên Drive của người dùng. Nếu như bị Hack mất Email, người dùng sẽ đối mặt với nguy cơ rò rỉ dữ liệu trên Internet. Vậy nên, bảo vệ Email cá nhân cũng là một nút thắt giúp tăng cường an toàn cho Email tên miền doanh nghiệp. Email tên miền doanh nghiệp Sử dụng bảo mật hai lớp để bảo vệ Email cá nhân hiệu quả
+
+Để Email của mình được tăng cường tính bảo mật, bạn nên hạn chế đăng ký các dịch vụ Online. Bên cạnh đó, khi tạo mật khẩu, hãy sử dụng các mật khẩu mạnh, phức tạp và chú ý ghi nhớ cẩn thận.
+
+Một vài hành động nhỏ như nhớ đăng xuất khỏi tài khoản Email khi không sử dụng và trước khi cho mượn máy tính, tắt tính năng cho phép User gửi tiếp Email, đồng thời giới hạn lượt truy cập vào WebMail sẽ giúp tăng cường bảo mật cho Email của bạn.
+
+
+
+
+
+
+
+
+
