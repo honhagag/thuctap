@@ -94,9 +94,11 @@ Hoặc có thể cấm tất cả các user truy cập FTP và lập danh sách 
 
 ![image](https://user-images.githubusercontent.com/105496635/187618737-504e9d9e-a379-4aec-8284-d76891e224ce.png)
 
+Banner khi người dùng login vào FTP server
+        
+        ftpd_banner="Welcome FTP Server"
 
-
-
+![image](https://user-images.githubusercontent.com/105496635/187620717-1884bc70-bbf2-4f8d-9a26-f9b759ba64aa.png)
 
 
 
