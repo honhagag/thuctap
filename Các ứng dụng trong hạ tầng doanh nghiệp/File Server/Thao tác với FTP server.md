@@ -52,3 +52,30 @@ Sau đó restart lại dịch vụ vsftpd
          systemctl restart vsftpd
 
 
+Mở WinSCP đăng nhập vào user `hoangnon` và `hoangnon`, chọn giao thức FTP, port 21, Nhập user và password
+
+![image](https://user-images.githubusercontent.com/105496635/187657658-03038dfd-41d7-4421-b2d6-a49b15311fab.png)
+
+![image](https://user-images.githubusercontent.com/105496635/187657784-2f921972-36b1-4c8e-a93b-d1ada9513413.png)
+
+
+![image](https://user-images.githubusercontent.com/105496635/187658010-fbf4ef5e-e179-4046-8ef8-6946d31280c1.png)
+
+
+![image](https://user-images.githubusercontent.com/105496635/187658255-aed6449e-211a-42dd-93d8-98f87440f0ef.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
