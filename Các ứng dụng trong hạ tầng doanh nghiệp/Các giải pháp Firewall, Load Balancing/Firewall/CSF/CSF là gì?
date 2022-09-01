@@ -1,0 +1,19 @@
+# CSF
+## 1. Giới thiệu
+- Để bảo vệ Webserver của mình chống lại các cuộc tấn công DDos, Flood, Syn Flood, Port Sacn... ta cần phải cài tường lửa-  Firewall cho nó. Có rất nhiều chương trình
+Firewall cài đặt trên VPS nhưng CSF(CpnfigServer Securitu & Firewall) là mọt trong những firewall nhỏ gọn và hoạt động hiệu quả nhất
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
