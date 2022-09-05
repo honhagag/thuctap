@@ -5,34 +5,41 @@
 
 - Bạn chỉ nên cài đặt UFW trên hệ thống Linux mới, chưa cài đặt bất cứ control panel, script quản lý nào như cPanel, aaPanel, CyberPanel, Centminmod,… Vì các loại control panel này luôn cài đặt sẵn các tiện ích tường lửa đi kèm. Cài đặt thêm UFW sẽ gây xung đột hệ thống.
 
-- Cập nhật hệ thống trước khi cài đặt
+Bước 1: Cập nhật hệ thống trước khi cài đặt
 
        sudo yum update
-       sudo yum upgrade -y
+     
+Bước 2: Cài đặt repo, từ đó chúng ta có thể cài đặt UFW.epel-release
+
+            `sudo yum install epel-release`
+
+![image](https://user-images.githubusercontent.com/105496635/188363448-6d9f83b8-4bdc-4232-9257-900292c96607.png)
 
 
-Kiểm tra xem UFW đã được cài sẵn trên máy chưa bằng lệnh  `which ufw`
+Bước 3. Cài đặt UFW.
 
-![image](https://user-images.githubusercontent.com/105496635/188361826-d724cb4b-8b1b-4f37-8219-430bc2c0ef1e.png)
+       `yum install --enablerepo="epel" ufw`
 
-
-Nếu không nhận được kết quả nào, nghĩa là ufw chưa được cài đặt trong máy. Bạn cài đặt UFW như các package quen thuộc khác
-
-         `sudo apt install ufw`
+![image](https://user-images.githubusercontent.com/105496635/188363675-92aff5ac-c667-49d2-be27-693a723536c6.png)
 
 
+Bước 4. Xác minh cài đặt và kiểm tra phiên bản với:
+
+        `ufw --version`
 
 
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/105496635/188363801-793b33b9-0950-458d-857d-3126e91181ce.png)
 
 
 
+Bước 5. Sau khi cài đặt xong, hãy kích hoạt nó.
+
+`sudo ufw enable`
+
+![image](https://user-images.githubusercontent.com/105496635/188364379-e3f1e680-4aa3-4708-8b60-2c475afcc25d.png)
+
+
+Bước 6. Để kiểm tra trạng thái, hãy chạy:
+
+`sudo ufw status`
 
