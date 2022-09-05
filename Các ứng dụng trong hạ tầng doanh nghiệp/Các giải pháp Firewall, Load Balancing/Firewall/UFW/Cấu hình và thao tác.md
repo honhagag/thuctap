@@ -132,17 +132,24 @@ Cho phép tất cả các kết nối SSH đến trên cổng SSH mặc định:
 
           sudo ufw allow 22
 
+![image](https://user-images.githubusercontent.com/105496635/188395707-0bca2cd5-4c1e-40f2-a9b5-398e05a96a2d.png)
+
+
 
 Cho phép SSH đến từ địa chỉ hay mạng con cụ thể:
 
 Lệnh sau sẽ chỉ cho phép các kết nối SSH đến từ địa chỉ IP:172.16.1.31:
 
-sudo ufw allow from 172.16.1.31 proto tcp to any port 22
+    sudo ufw allow from 172.16.1.31 proto tcp to any port 22
+
+![image](https://user-images.githubusercontent.com/105496635/188395851-6e84c1a2-2aea-4264-8809-94dc25bacc01.png)
 
 
 Lệnh sai cho phép mạng con kết nối SSH:
 
 sudo ufw allow from 172.16.1.0/24 proto tcp to any port 22
+
+![image](https://user-images.githubusercontent.com/105496635/188396326-27a382f1-9acc-457c-a9e8-a22804991aa3.png)
 
 
 Cho phép RsYnc kết nối từ địa chỉ IP hay mạng con cụ thể:
@@ -152,6 +159,8 @@ Các Rsync chương trình, chạy trên cổng 873, có thể được sử d�
 Sử dụng lệnh sau để cho phép IP: 172.16.1.31:
 
        sudo ufw allow from 172.16.1.31 to any port 873
+
+![image](https://user-images.githubusercontent.com/105496635/188396402-c1d5f727-dd76-43b1-8f39-c5839c4fab99.png)
 
 
 Sử dụng lệnh sau để cho phép mạng con kết nối:
