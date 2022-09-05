@@ -75,7 +75,12 @@ Chấp nhận gói tin nhưng có ghi lại log
 Gói tin sẽ đi qua tất cả các rule chứ không dừng lại khi đã đúng với 1 rule đặt ra. Đối với những gói tin không khớp với rule nào cả mặc định sẽ được chấp nhận
 
 
+## 3. Cấu hình cơ bản 
+Một target sẽ được đưa ra khi có một gói tin được xác định. Targer cí thể là chuoix khác để khớp với một trong các giá trị sau:
 
+ACCEPT: gói tin được phép đi qua
+DROP gói tin không được phép đi qua
+RETURN bỏ qua chuỗi hiện tại và quay trở lại quy tắc tiếp theo từ chuỗi mà nó được gọi
 
 
 
