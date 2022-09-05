@@ -7,10 +7,11 @@
 
 - Cập nhật hệ thống trước khi cài đặt
 
-       sudo apt update
-       sudo apt upgrade -y
+       sudo yum update
+       sudo yum upgrade -y
 
 
+Kiểm tra xem UFW đã được cài sẵn trên máy chưa bằng lệnh  `which ufw`
 
-
+![image](https://user-images.githubusercontent.com/105496635/188361826-d724cb4b-8b1b-4f37-8219-430bc2c0ef1e.png)
 
