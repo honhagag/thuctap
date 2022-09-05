@@ -43,3 +43,5 @@ Bước 6. Để kiểm tra trạng thái, hãy chạy:
 
 `sudo ufw status`
 
+![image](https://user-images.githubusercontent.com/105496635/188373548-77399e3b-738c-411d-b3f8-f10c508a7c22.png)
+
