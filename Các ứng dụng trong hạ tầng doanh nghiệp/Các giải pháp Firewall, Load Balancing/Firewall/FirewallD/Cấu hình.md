@@ -107,8 +107,8 @@
 
 - tạo zone mới
 
-            firewall-cmd --permanent --new-zone=hothanhvinh
-            firewall-cmd --permanent --new-zone=nguyenkhanhhuyen
+            firewall-cmd --permanent --new-zone=maisyhoang
+            firewall-cmd --permanent --new-zone=maisyhoang1
             
 - khởi động lại firewall
 
@@ -116,19 +116,21 @@
             
 - lấy ra danh sách zone:
 
-            irewall-cmd --get-zones
+            firewall-cmd --get-zones
 
-![image](https://user-images.githubusercontent.com/95491130/186799356-529fa1bf-df27-4f30-b189-4be7ba25e998.png)
+![image](https://user-images.githubusercontent.com/105496635/188352942-0169e288-6f0c-4aad-bdda-0b51a9c1544d.png)
 
 - thêm các dịch vụ cho zone vừa tạo:
 
-firewall-cmd --zone=hothanhvinh --add-service=ssh --permanent
-firewall-cmd --zone=hothanhvinh --add-service=http --permanent
-firewall-cmd --zone=hothanhvinh --add-service=https --permanent
+firewall-cmd --zone=maisyhoang-add-service=ssh --permanent
+firewall-cmd --zone=maisyhoang --add-service=http --permanent
+firewall-cmd --zone=maisyhoang --add-service=https --permanent
 
-![image](https://user-images.githubusercontent.com/95491130/186799883-139f3430-022f-4f59-b501-0cd3422ce0c4.png)
+![image](https://user-images.githubusercontent.com/105496635/188353213-b2dda0a0-2121-40ee-8dd4-a1b87208357f.png)
 
-![image](https://user-images.githubusercontent.com/95491130/186799950-c57bf654-a8cb-424c-85dc-0ed7c5ef17d1.png)
+
+
+
 
 
 ## 2. Định nghĩa services riêng trên FirewallD
@@ -143,24 +145,24 @@ firewall-cmd --zone=hothanhvinh --add-service=https --permanent
 
 – Tạo file định nghĩa riêng từ file chuẩn ban đầu
 
-        cp /usr/lib/firewalld/services/ssh.xml /etc/firewalld/services/huyenapple.xml
+        cp /usr/lib/firewalld/services/ssh.xml /etc/firewalld/services/hoangnon.xml
 
 – Chỉnh sửa để định nghĩa servies trên FirewallD
 
-        nano /etc/firewalld/services/huyenapple.xml
+        nano /etc/firewalld/services/hoangnon.xml
         
-![image](https://user-images.githubusercontent.com/95491130/186801764-30a009e8-d6ab-4b5c-aa6e-2cb58fa68dea.png) 
+![image](https://user-images.githubusercontent.com/105496635/188354003-035682d5-e427-4109-9c59-8480e4b8335b.png)
 
 - thêm đoạn sau vào
 
         <?xml version="1.0" encoding="utf-8"?>
         <service>
-        <short>huyenapple</short>
+        <short>hoangnon</short>
         <description>Control huyenapple Web Tool</description>
         <port protocol="tcp" port="1508"/>
         </service>
         
-![image](https://user-images.githubusercontent.com/95491130/186801723-62cdaed5-7f5f-4dfb-a469-cbe9d3f8d50a.png)
+![image](https://user-images.githubusercontent.com/105496635/188353884-8a0ca267-10bd-4118-9209-2febe1a78663.png)
 
 – Lưu lại và khởi động lại FirewallD
 
@@ -172,12 +174,12 @@ firewall-cmd --zone=hothanhvinh --add-service=https --permanent
 
         firewall-cmd --get-services
 
-![image](https://user-images.githubusercontent.com/95491130/186801896-f59a6ef8-c1a6-4da3-a645-df8e70204b7c.png)
+![image](https://user-images.githubusercontent.com/105496635/188354507-07a7da13-18b3-48f9-96a0-bc21acc546fb.png)
 
 
-- huyenapple đã được thêm vào danh sách services của FirewallD. Bạn có thể thiết lập như các servies thông thường, bao gồm cả cho phép/chặn trong zone. Ví dụ:
+- hoangnon đã được thêm vào danh sách services của FirewallD. Bạn có thể thiết lập như các servies thông thường, bao gồm cả cho phép/chặn trong zone. Ví dụ:
 
-    firewall-cmd --zone=hothanhvinh --add-service=huyenapple
-    firewall-cmd --zone=hothanhvinh --add-service=huyenapple --permanent
+    firewall-cmd --zone=maisyhoang --add-service=hoangnon
+    firewall-cmd --zone=maisyhoang --add-service=hoangnon --permanent
     
-![image](https://user-images.githubusercontent.com/95491130/186802150-bcb9cd9f-ba06-44ea-babf-83dd2566d9c0.png)
+![image](https://user-images.githubusercontent.com/105496635/188354681-c019b179-0318-4340-9be0-8f52ad2fadc1.png)
