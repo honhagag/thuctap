@@ -28,10 +28,18 @@
  ## 3. Các loại web hosting khác nhau
   
  - Hầu hết các nhà cung cấp web host đều cung cấp nhiều loại hosting khác nhau để đáp ứng từng nhu cầu khác nhau của nhiều khác hàng. Các loại hosting thông dụng nhất là:  
- Shared Hosting 
+ ### Shared Hosting 
   ![image](https://user-images.githubusercontent.com/105496635/188546188-bf50281b-9c89-44de-a3ee-474c701e3d74.png)
-![image](https://user-images.githubusercontent.com/105496635/188546193-e80ab806-4bce-4b6d-927e-8b2cf4200957.png)
+- Shared hosting là loại web hosting phổ biến nhất và lựa chọn hàng đầu cho những doanh nghiệp nhỏ và blog. Khi bạn nghe tới từ “web hosting”, thường là họ nói đến shared hosting. 
 
+- Với shared hosting, bạn chia sẻ tài nguyên server với những khách hàng khác của nhà cung cấp hosting của bạn. Website được đặt trên cùng một server để sử dụng chung tài nguyên và bộ nhớ, sức mạnh xử lý, dung lượng đĩa, vâng vâng.
+
+- Ưu điểm:
+          Giá thành thấp
+          Thân thiện cho người mới bắt đầu (không cần kiến            thức kỹ thuật)
+          Server được cấu hình sẵn
+          Control panel dễ sử dụng, thân thiện người dùng
+          Nhà cung cấp chịu trách nhiệm quản lý và vận hành server
   
 <a name=4><a/>
 <a name=5><a/>
