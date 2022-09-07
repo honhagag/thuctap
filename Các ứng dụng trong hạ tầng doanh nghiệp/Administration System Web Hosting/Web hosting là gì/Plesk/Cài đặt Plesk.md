@@ -63,19 +63,33 @@ Sau khi đã hoàn tất download, tiến hành cài đặt plesk bằng câu l�
 
 ![image](https://user-images.githubusercontent.com/105496635/188812216-8ccea673-ab5e-49da-9d0f-244b4601dbf6.png)
 
-### Bước 9: Hoàn tất quá trình cài đặt, truy cập vào trang https://:8443 để tiếp tục cài đặt như các phiên bản khác với thông tin như sau:
+### Bước 9: Hoàn tất quá trình cài đặt, truy cập vào trang https://localhost:8443 để tiếp tục cài đặt như các phiên bản khác với thông tin như sau:
+- Với tài khoản và mật khẩu của máy root
+              
+              username: root
+              password: 1
+          
+
+![image](https://user-images.githubusercontent.com/105496635/188817389-af042c19-6ead-4085-8744-1ee3e208847b.png)
 
 
 
+Giao diện sau khi đăng nhập và điền thông tin của quản trị
+
+![image](https://user-images.githubusercontent.com/105496635/188817867-332a8fe4-3859-4260-a46a-58dbcee0e4c3.png)
+
+Sau khi nhập thông tin đăng nhập và chờ trong giây lắt để cập nhật
+
+![image](https://user-images.githubusercontent.com/105496635/188818626-1af30f04-e3a7-410e-ba6e-f9ea19057565.png)
 
 
 
+- Giao diện sau khi đăng nhập
+
+![image](https://user-images.githubusercontent.com/105496635/188818965-b3f8c1df-3f12-4cee-95e1-8e39781ddd9a.png)
 
 
-
-
-
-
+Link để đăng nhập https://localhost:8443/smb/web/setup
 
 
 
