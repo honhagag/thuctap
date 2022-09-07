@@ -44,11 +44,20 @@ SELINUX= disabled
 ![image](https://user-images.githubusercontent.com/105496635/188585599-097b0734-18a6-488a-b3b1-d12fa9d63215.png)
 
 
+## Bước 6: Sau khi xong, truy cập địa chỉ :2087 để vào trang đăng nhập
+- Đăng nhập vào cPanel bằng tài khoản root của VPS.
+
+- Sau đó login tài khoản đã đăng khí trên web của cPanel để dùng thử 15 ngày.
+
+- Một số thông tin nữa:
 
 
+![image](https://user-images.githubusercontent.com/105496635/188767622-aa7c894f-bc38-4928-a913-684c2a3e13d6.png)
 
 
+Nhập email của bạn 
 
+![image](https://user-images.githubusercontent.com/105496635/188767847-8f747e08-1a7e-4c5d-8fb0-9901c6204ceb.png)
 
 
 
