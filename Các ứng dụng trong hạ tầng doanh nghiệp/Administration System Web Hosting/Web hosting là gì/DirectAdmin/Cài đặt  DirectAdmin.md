@@ -33,6 +33,15 @@
 
 ### Bước 4:  Chạy tập lệnh cài đặt DirectAdmin
 
+           ./setup.sh
+
+![image](https://user-images.githubusercontent.com/105496635/188785225-594b968f-bf16-4adf-9836-5ab9e0d34221.png)
+
+Trong trường hợp nếu bạn đã mua phần mềm thì nhạp key của nhà phát hành
+
+
+
+
 
          ./setup.sh  auto
            
