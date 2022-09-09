@@ -151,17 +151,37 @@ Mở file zabbix_server.conf tại đây
 Tại đây bạn tìm đến dòng số 91, 100, 116, 125 và thay đổi thông số cấu hình mặc định thành thông tin database mà bạn đã tạo trước đó ở Bước 5
 
 
+         DBHost=localhost
+         DBName=kblinux
+         DBUser=zabbixuser
+         DBPassword=h1YcadmWzdHr
+Sau khi chỉnh sửa hoàn tất bạn Restart lại dịch vụ Zabbix
+
+         Start Zabbix
+         systemctl start zabbix-server.service
+Kích hoạt Zabbix khi boot
+
+        systemctl enable zabbix-server.service
+Restart lại Zabbix
+
+         systemctl restart zabbix-server.service
+Kiểm tra trạng thái
+         
+         systemctl status zabbix-server.service
 
 
 
+![image](https://user-images.githubusercontent.com/105496635/189326692-8d80de8f-03be-4daa-9872-c3b7cf68b8dd.png)
+
+
+             
+             firewall-cmd --add-service={http,https} --permanent
+             firewall-cmd --add-port={10051/tcp,10050/tcp} --permanent
+             firewall-cmd --reload
 
 
 
-
-
-
-
-
+Bước 8: Setup Zabbix
 
 
 
