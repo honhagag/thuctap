@@ -1,4 +1,4 @@
-# 1. Tổng  quan
+# 1. Tổng  quan 
 - Zabbix là một công cụ giám sát hệ thống mạng , các thiết bị mạng, giám át khả năng sẵn sàng và hiệu năng của mjang và thiết bị mjang. Nếu có xảy ea lỗi thì sẽ có cảnh báo gửi tới người quản trị mạng sms, email..
 - Là công cụ mã nguồn mở miễn phí.
 - Được phát hành giấy phép GPlv2, không giới hjan về sức chứa và số lượng thiết bị được giám sát
