@@ -183,26 +183,53 @@ Kiểm tra trạng thái
 
 Bước 8: Setup Zabbix
 
+Sử dụng địa chỉ ip của máy ảo và thêm đuôi zabbix về phía sau:
+
+![image](https://user-images.githubusercontent.com/105496635/189558168-a8930f81-7273-44d1-9a12-3ae421b8ee31.png)
 
 
+Ấn Next Step để thực hiện cài đặt 
 
 
+ ![image](https://user-images.githubusercontent.com/105496635/189561575-411e9024-63c6-41f6-b996-195f8bef6215.png)
+           
             
             
-            
-            
+Đăng nhập và sử dụng mật khẩu đã tạo ở Bước 5 và sau đó ấn Next
+
+![image](https://user-images.githubusercontent.com/105496635/189562210-e831d2c3-f8f1-4ea1-a835-17b08798b438.png)
+
+
+Nhập thông tin name : `zabbix.kblilux.com`
+
+![image](https://user-images.githubusercontent.com/105496635/189562420-75adabff-19de-439a-a991-f015f82a8482.png)
 
 
 
+Tiếp tụ next
+
+![image](https://user-images.githubusercontent.com/105496635/189562538-b3b64a74-2f5f-4a33-bc7d-e668e19d0f4d.png)
+
+
+Ấn Finsh để hoàn thành 
+
+![image](https://user-images.githubusercontent.com/105496635/189562584-5ea5e45f-27a0-46af-a655-9366b06c7631.png)
 
 
 
+Cửa sổ đăng nhập bây giờ bạn hãy đăng nhập với thông tin mặc định là
+
+Username: Admin
+Password: zabbix
 
 
+![image](https://user-images.githubusercontent.com/105496635/189562731-71c89059-5fe8-445e-b6d5-f60e7be3ae6f.png)
 
 
+Giao diện sau khi đăng nhập
 
 
+![image](https://user-images.githubusercontent.com/105496635/189564477-ad9aab64-3c37-4b56-a4b3-414ba38d5bb2.png)
 
 
 
