@@ -41,7 +41,7 @@ Chỉ có một một helper program được fork thay vì toàn bộ Nagios Co
 
 Các tiến trình fork được phân tán trên tất cả các CPU thay vì chỉ một như trước.
 
-Process VM size tổng chỉ khoảng 100KB.
+Process VM size tổng chỉ khoảng 100KB. 
 
 
 
